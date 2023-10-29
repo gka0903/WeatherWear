@@ -8,8 +8,7 @@
 # testing
 /coverage
 
-# keys
-/src/keys/geoCoding.key.ts
+geoCoding.key.ts
 
 # production
 /build
