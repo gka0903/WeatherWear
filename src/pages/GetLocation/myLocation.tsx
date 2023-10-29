@@ -28,7 +28,7 @@ const MyLocation = () => {
     }
     return (
         <Container onClick={loadLocation}>
-            <img src={myLocation} alt=""/>
+            <img src={`${myLocation}`} alt=""/>
             <Span>내 위치 불러오기</Span>
         </Container>
     );

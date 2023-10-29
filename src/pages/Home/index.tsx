@@ -1,6 +1,5 @@
 import { Section } from './styles';
 import AppLayout from "../../components/AppLayout";
-import ButtonUsage from "../../components/Nav/nav";
 import VerticalNavbar from "../../components/Nav/nav";
 import MyLocation from "../GetLocation/myLocation";
 
@@ -11,7 +10,7 @@ function Home() {
             <Section>
                 <div>
                     <div>환영합니다 박수짝짝</div>
-                    <MyLocation
+                    <MyLocation/>
                 </div>
             </Section>
             <Section>
