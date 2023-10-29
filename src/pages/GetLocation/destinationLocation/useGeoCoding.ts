@@ -1,4 +1,4 @@
-import key from "../../../keys/geoCoding.key";
+import key from "../../../keys/geoCoding.txt";
 
 const useGeoCoding = () => {
     const apiKey = key;
