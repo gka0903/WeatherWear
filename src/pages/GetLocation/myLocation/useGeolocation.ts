@@ -47,4 +47,4 @@ const useGeolocation = () => {
     return location;
 }
 
-export default useGeolocation
+export default useGeolocation;
