@@ -1,7 +1,8 @@
 import styled from "styled-components";
+import React, {ChangeEvent, useState} from "react";
 import useGeoCoding from "./useGeoCoding";
 
-const Container = styled.div`
+const Container = styled.form`
   width: 95%;
   height: 5%;
   margin-top: 2%;
@@ -13,22 +14,19 @@ const Container = styled.div`
   border-radius: 10px;
 `;
 
-const Span = styled.span`
-  color: #4683FF;
-  margin-left: 0.3%;
-`;
-
-// 이하 코드 동일
-
 const DestinationLocation = () => {
-    const location = useGeoCoding();
-    const loadLocation = () => {
-        // console.log(JSON.stringify(location))
-        console.log(location);
-    }
+    const [location, setLocation] = useState(""); // location 상태 초기화
+    const loadLocation = (e: ChangeEvent<HTMLInputElement>) => {
+        setLocation(e.target.value);
+    };
+    const GetLocation = (e: React.FormEvent<HTMLFormElement>) => {
+        e.preventDefault(); // 폼의 기본 동작 방지
+        useGeoCoding(location);
+    };
+
     return (
-        <Container onClick={loadLocation}>
-            <Span>위치 넣기</Span>
+        <Container onSubmit={GetLocation}>
+            <input onChange={loadLocation} placeholder="Enter a location"/>
         </Container>
     );
 };

@@ -1,10 +1,10 @@
 import key from "../../../keys/geoCoding";
 
-const useGeoCoding = () => {
-    const apiKey = key;
-    const address = '한성대학교';
 
-    const formattedAddress = encodeURIComponent(address);
+const useGeoCoding = (location: string) => {
+    const apiKey = key;
+
+    const formattedAddress = encodeURIComponent(location);
 
     fetch(`https://maps.googleapis.com/maps/api/geocode/json?address=${formattedAddress}&key=${apiKey}`)
         .then(response => response.json())
@@ -12,7 +12,7 @@ const useGeoCoding = () => {
             if (data.status === 'OK') {
                 const formattedResult = data.results[0].formatted_address;
                 console.log(data);
-                console.log(`Address for ${address}: ${formattedResult}`);
+                console.log(`Address for ${location}: ${formattedResult}`);
             } else {
                 console.error('Unable to find the address for the specified place.');
             }
