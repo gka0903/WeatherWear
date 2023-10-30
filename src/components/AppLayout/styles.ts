@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  height: 300vh;
 `;
 
 export const Header = styled.header`
@@ -52,7 +51,10 @@ export const Button = styled.button`
   align-items: center;
 `;
 
-export const Main = styled.main``;
+export const Main = styled.main`
+  width: 100%;
+  height: auto;
+`;
 
 export const Footer = styled.footer`
   display: flex;

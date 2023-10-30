@@ -1,9 +1,10 @@
 import React, {ChangeEvent, useState} from "react";
 import useGeoCoding from "./useGeoCoding";
-import {Container} from "./style";
+import {Container, Content, Input, Title} from "./style";
+import MyLocation from "../myLocation/myLocation";
 
 
-const DestinationLocation = () => {
+const Location = () => {
     const [location, setLocation] = useState(""); // location 상태 초기화
     const loadLocation = (e: ChangeEvent<HTMLInputElement>) => {
         setLocation(e.target.value);
@@ -15,9 +16,13 @@ const DestinationLocation = () => {
 
     return (
         <Container onSubmit={GetLocation}>
-            <input onChange={loadLocation} placeholder="Enter a location"/>
+            <Title>Where are you?</Title>
+            <Content>
+                <Input onChange={loadLocation} placeholder="Enter a location"/>
+                <MyLocation/>
+            </Content>
         </Container>
     );
 };
 
-export default DestinationLocation;
+export default Location;

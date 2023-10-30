@@ -3,15 +3,11 @@ import myLocation from "./icMylocation.svg";
 import useGeolocation from "./useGeolocation";
 
 const Container = styled.div`
-  width: 95%;
+  width: 100%;
   height: 5%;
-  margin-top: 2%;
-  background-color: #F5F9FF;
-  border: solid 1px #4683FF;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 10px;
 `;
 
 const Span = styled.span`
