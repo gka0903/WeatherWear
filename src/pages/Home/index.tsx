@@ -1,6 +1,7 @@
 import {Section} from './styles';
 import AppLayout from "../../components/AppLayout";
 import Location from "../GetLocation/destinationLocation/Location";
+import FortuneCookie from "../FortuneCookie/FortuneCookie";
 
 function Home() {
     return (
@@ -8,6 +9,7 @@ function Home() {
             <Section>
                 <Location/>
             </Section>
+            <FortuneCookie/>
         </AppLayout>
     );
 }
