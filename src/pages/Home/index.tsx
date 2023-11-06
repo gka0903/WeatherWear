@@ -2,6 +2,8 @@ import { Section } from './styles';
 import AppLayout from "../../components/AppLayout";
 import ButtonUsage from "../../components/Nav/nav";
 import VerticalNavbar from "../../components/Nav/nav";
+import Wear from '../Weather/Wear';
+
 
 function Home() {
     return (
@@ -12,6 +14,9 @@ function Home() {
                     <div>환영합니다 박수짝짝</div>
                     <ButtonUsage />
                 </div>
+            </Section>
+            <Section>
+                <Wear /> {/* 여기에 Wear 컴포넌트 추가 */}
             </Section>
             <Section>
                 <div>
