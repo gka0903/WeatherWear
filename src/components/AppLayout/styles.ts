@@ -1,17 +1,15 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  height: 300vh;
 `;
 
 export const Header = styled.header`
-  min-height: 64px;
+  min-height: 30px;
   position: sticky;
   top: 0;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 0px 24px;
+  justify-content: space-between;
+  padding: 0 10px;
   border-bottom: var(--border);
   backdrop-filter: blur(5px);
 `;
@@ -47,17 +45,16 @@ export const NavBar = styled.nav`
   }
 `;
 
-export const LogoTitle = styled.div`
+export const Button = styled.button`
   display: flex;
   gap: 12px;
   align-items: center;
-
-  & > img {
-    height: 48px;
-  }
 `;
 
-export const Main = styled.main``;
+export const Main = styled.main`
+  width: 100%;
+  height: auto;
+`;
 
 export const Footer = styled.footer`
   display: flex;

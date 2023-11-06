@@ -1,15 +1,19 @@
-import { Section } from './styles';
+import {Section} from './styles';
 import AppLayout from "../../components/AppLayout";
+<<<<<<< HEAD
 import ButtonUsage from "../../components/Nav/nav";
 import VerticalNavbar from "../../components/Nav/nav";
 import Wear from '../Weather/Wear';
 
+=======
+import Location from "../GetLocation/destinationLocation/Location";
+>>>>>>> develop
 
 function Home() {
     return (
         <AppLayout>
-            <VerticalNavbar/>
             <Section>
+<<<<<<< HEAD
                 <div>
                     <div>환영합니다 박수짝짝</div>
                     <ButtonUsage />
@@ -31,6 +35,9 @@ function Home() {
                     <div>3</div>
                     <div>4</div>
                 </div>
+=======
+                <Location/>
+>>>>>>> develop
             </Section>
         </AppLayout>
     );
