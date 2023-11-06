@@ -18,7 +18,7 @@ export async function getWeather(lat: number, lon: number): Promise<WeatherData 
             throw new Error('Weather data fetch failed');
         }
         const data = await response.json();
-        console.log(data);
+        console.log("데이터 확인 ", data);
         return {
             temp: data.main.temp,
             weather: data.weather[0].main,
