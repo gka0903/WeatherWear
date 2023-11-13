@@ -9,7 +9,7 @@ src/keys/.env
 # testing
 /coverage
 
-src/keys
+src/keys/
 
 # production
 /build
