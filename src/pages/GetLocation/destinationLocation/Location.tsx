@@ -5,7 +5,7 @@ import MyLocation from "../myLocation/myLocation";
 
 
 const Location = () => {
-    const [location, setLocation] = useState(""); // location 상태 초기화
+    const [location, setLocation] = useState(""); // location 상태 초기
     const loadLocation = (e: ChangeEvent<HTMLInputElement>) => {
         setLocation(e.target.value);
     };
