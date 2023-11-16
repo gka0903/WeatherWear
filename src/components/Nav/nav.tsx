@@ -1,49 +1,56 @@
-import * as React from 'react';
-import Drawer from '@mui/material/Drawer';
-import List from '@mui/material/List';
-import ListItem from '@mui/material/ListItem';
-import ListItemText from '@mui/material/ListItemText';
-import IconButton from '@mui/material/IconButton';
-import MenuIcon from '@mui/icons-material/Menu';
+import React from 'react';
+import styled from 'styled-components';
 
-interface VerticalNavbarProps {
-    click: () => void;
-}
+// 네비게이션 바 스타일
+const NavContainer = styled.nav`
+  height: 80%;
+  width: 10%;
+  background-color: black;
+  padding: 10px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  left: 2%;
+  position: fixed;
+`;
 
-const VerticalNavbar: React.FC<VerticalNavbarProps> = ({click}) => {
-    const [open, setOpen] = React.useState(false);
+// 네비게이션 바 아이템 스타일
+const NavItem = styled.div`
+  margin: 10px 0;
 
-    const toggleDrawer = (isOpen: boolean) => (event: React.MouseEvent) => {
-        if (event && event.type === 'keydown') {
-            return;
-        }
+  a {
+    text-decoration: none;
+    color: white;
+  }
+`;
 
-        setOpen(isOpen);
-    };
-
+const Navigation = () => {
     return (
-        <div>
-            <IconButton onClick={toggleDrawer(true)}>
-                <MenuIcon/>
-            </IconButton>
-            <Drawer anchor="left" open={open} onClose={toggleDrawer(false)}>
-                <List>
-                    <ListItem onClick={toggleDrawer(false)}>
-                        <button onClick={click}>테마변경</button>
-                    </ListItem>
-                    <ListItem onClick={toggleDrawer(false)}>
-                        <ListItemText primary="메뉴 항목 1"/>
-                    </ListItem>
-                    <ListItem onClick={toggleDrawer(false)}>
-                        <ListItemText primary="메뉴 항목 2"/>
-                    </ListItem>
-                    <ListItem onClick={toggleDrawer(false)}>
-                        <ListItemText primary="메뉴 항목 3"/>
-                    </ListItem>
-                </List>
-            </Drawer>
-        </div>
+        <NavContainer>
+            {/* 로고 또는 홈 링크 */}
+            <NavItem>
+                <a href="/">Location</a>
+            </NavItem>
+
+
+            {/* 메뉴 링크들 */}
+            <NavItem>
+                <a href="/tops">Tops</a>
+            </NavItem>
+            <NavItem>
+                <a href="/pants">Pants</a>
+            </NavItem>
+            <NavItem>
+                <a href="/outer">Outer</a>
+            </NavItem>
+            <NavItem>
+                <a href="/setUp">Set Up</a>
+            </NavItem>
+            
+        </NavContainer>
     );
 };
 
-export default VerticalNavbar;
+export default Navigation;

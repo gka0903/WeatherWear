@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import styled from "styled-components";
 
+
 const fortunes = [
     "내일은 더 나은 하루가 될 것입니다.",
     "곧 좋은 소식이 있을 것입니다.",

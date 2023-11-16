@@ -8,10 +8,12 @@ const Container = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 `;
 
 const Span = styled.span`
-  color: #4683FF;
+  color: white;
+  font-size: 80%;
   margin-left: 0.3%;
 `;
 
@@ -25,7 +27,7 @@ const MyLocation = () => {
     return (
         <Container onClick={loadLocation}>
             <img src={`${myLocation}`} alt=""/>
-            <Span>내 위치 불러오기</Span>
+            <Span>My Location</Span>
         </Container>
     );
 };

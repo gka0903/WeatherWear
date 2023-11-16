@@ -11,7 +11,8 @@ const Location = () => {
     };
     const GetLocation = (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault(); // 폼의 기본 동작 방지
-        useGeoCoding(location);
+        const geoCoding = useGeoCoding(location);
+        console.log(geoCoding);
     };
 
     return (

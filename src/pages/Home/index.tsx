@@ -2,24 +2,25 @@ import {Section} from './styles';
 import AppLayout from "../../components/AppLayout";
 
 import Location from "../GetLocation/destinationLocation/Location";
-
-import FortuneCookie from "../FortuneCookie/FortuneCookie";
-import Wear from "../Weather/Wear";
+import {Provider} from "react-redux";
+import {store} from "../redux/store";
 
 
 function Home() {
     return (
-        <AppLayout>
-            <Section>
-                <Location/>
-            </Section>
-            <Section>
-                <Wear/>
-            </Section>
-            <Section>
-                <FortuneCookie/>
-            </Section>
-        </AppLayout>
+        <Provider store={store}>
+            <AppLayout>
+                <Section>
+                    <Location/>
+                </Section>
+                {/*<Section>*/}
+                {/*    <Wear/>*/}
+                {/*</Section>*/}
+                {/*<Section>*/}
+                {/*    <FortuneCookie/>*/}
+                {/*</Section>*/}
+            </AppLayout>
+        </Provider>
     );
 }
 
