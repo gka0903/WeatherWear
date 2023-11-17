@@ -14,6 +14,8 @@ function Home() {
         <AppLayout>
             <Section>
                 <Location/>
+            </Section>
+            <Section>
                 <RecommendClothing/>
             </Section>
             <Section>
