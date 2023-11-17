@@ -25,7 +25,6 @@ function Home() {
                 </Routes>
             </AppLayout>
         </Provider>
-
     );
 }
 
