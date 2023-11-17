@@ -48,7 +48,10 @@ const Navigation = () => {
             <NavItem>
                 <a href="/setUp">Set Up</a>
             </NavItem>
-            
+            <NavItem>
+                <a href="/fortune/fortune">To Day Fortune</a>
+            </NavItem>
+
         </NavContainer>
     );
 };
