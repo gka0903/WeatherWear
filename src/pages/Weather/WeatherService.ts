@@ -1,6 +1,8 @@
 // WeatherService.ts
 
-const API_KEY = process.env.REACT_APP_API_KEY;
+import KEY from "../../keys/env";
+
+const API_KEY = KEY;
 
 
 console.log(`API Key: ${API_KEY}`); // API 키 출력하여 확인
