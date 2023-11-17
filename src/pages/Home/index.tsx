@@ -2,10 +2,12 @@ import {Section} from './styles';
 import AppLayout from "../../components/AppLayout";
 
 import Location from "../GetLocation/destinationLocation/Location";
+
 import {Provider} from "react-redux";
 import {store} from "../redux/store";
 import React from "react";
 import {Route, Routes} from "react-router-dom";
+
 import Wear from "../Weather/Wear";
 import FortuneCookie from "../FortuneCookie/FortuneCookie";
 import NotFound from "../notFound/notFound";
@@ -23,6 +25,7 @@ function Home() {
                 </Routes>
             </AppLayout>
         </Provider>
+
     );
 }
 

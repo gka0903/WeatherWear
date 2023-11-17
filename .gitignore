@@ -9,7 +9,7 @@ src/keys/env.ts
 # testing
 /coverage
 
-src/keys
+src/keys/
 
 # production
 /build
