@@ -1,6 +1,8 @@
 import styled from "styled-components";
 import myLocation from "./icMylocation.svg";
 import useGeolocation from "./useGeolocation";
+import {useDispatch} from "react-redux";
+import {setMyLocation} from "../../redux/locationSlice";
 
 const Container = styled.div`
   width: 100%;
@@ -21,8 +23,9 @@ const Span = styled.span`
 
 const MyLocation = () => {
     const location = useGeolocation();
+    const dispatch = useDispatch();
     const loadLocation = () => {
-        console.log(JSON.stringify(location))
+        dispatch(setMyLocation(location));
     }
     return (
         <Container onClick={loadLocation}>
