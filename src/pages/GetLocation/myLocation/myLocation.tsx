@@ -19,14 +19,14 @@ const Span = styled.span`
   margin-left: 0.3%;
 `;
 
-// 이하 코드 동일
-
 const MyLocation = () => {
     const location = useGeolocation();
     const dispatch = useDispatch();
+
     const loadLocation = () => {
         dispatch(setMyLocation(location));
-    }
+    };
+
     return (
         <Container onClick={loadLocation}>
             <img src={`${myLocation}`} alt=""/>
