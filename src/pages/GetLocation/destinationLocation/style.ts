@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Container = styled.form`
+export const FormContainer = styled.form`
   width: 95%;
   height: 100%;
   margin-top: 2%;

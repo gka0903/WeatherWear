@@ -49,7 +49,7 @@ const Navigation = () => {
                 <a href="/setUp">Set Up</a>
             </NavItem>
             <NavItem>
-                <a href="/fortune/fortune">To Day Fortune</a>
+                <a href="/fortune">Fortune</a>
             </NavItem>
 
         </NavContainer>
