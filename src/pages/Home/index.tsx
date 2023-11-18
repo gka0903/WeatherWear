@@ -1,7 +1,8 @@
 import {Section} from './styles';
 import AppLayout from "../../components/AppLayout";
-
+import useGeolocation from '../GetLocation/myLocation/useGeolocation';
 import Location from "../GetLocation/destinationLocation/Location";
+
 
 import {Provider} from "react-redux";
 import {store} from "../redux/store";
@@ -14,6 +15,8 @@ import NotFound from "../notFound/notFound";
 
 
 function Home() {
+    const geo = useGeolocation(); 
+    console.log(geo);
     return (
         <Provider store={store}>
             <AppLayout>
@@ -25,6 +28,7 @@ function Home() {
                 </Routes>
             </AppLayout>
         </Provider>
+
     );
 }
 
