@@ -1,22 +1,14 @@
-import React, {useCallback, useState} from 'react';
-
-import GlobalStyle from '../../GlobalStyle';
-import {Container, Header, Main} from './styles';
-import VerticalNavbar from "../Nav/nav";
+import React from 'react';
+import {Container, Main} from './styles';
+import Navigation from "../Nav/nav";
+import GlobalStyle from "../../GlobalStyle";
 
 function AppLayout({children}: { children: React.ReactNode }) {
-    const [darkMode, setDarkMode] = useState(false);
-    const onChangeDarkMode = useCallback(() => {
-        setDarkMode((prev) => !prev);
-    }, []);
-
     return (
         <>
-            <GlobalStyle darkMode={darkMode}/>
+            <GlobalStyle/>
             <Container>
-                <Header>
-                    <VerticalNavbar click={onChangeDarkMode}/>
-                </Header>
+                <Navigation/>
                 <Main>{children}</Main>
             </Container>
         </>

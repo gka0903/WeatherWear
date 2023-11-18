@@ -1,7 +1,10 @@
 // WeatherService.ts
 import KEY from "../../keys/env";
 
-const API_KEY = KEY; // API 키를 환경 변수나 별도의 설정 파일에서 가져옵니다.
+
+import KEY from "../../keys/env";
+
+const API_KEY = KEY;
 
 interface WeatherForecast {
   time: string;

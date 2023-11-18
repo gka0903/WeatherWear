@@ -2,32 +2,33 @@ import {Section} from './styles';
 import AppLayout from "../../components/AppLayout";
 import useGeolocation from '../GetLocation/myLocation/useGeolocation';
 import Location from "../GetLocation/destinationLocation/Location";
-import GetRecommend from '../Clothing/RecommendClothing';
-import RecommendClothing from '../Clothing/RecommendClothing';
 
+
+import {Provider} from "react-redux";
+import {store} from "../redux/store";
+import React from "react";
+import {Route, Routes} from "react-router-dom";
+
+import Wear from "../Weather/Wear";
 import FortuneCookie from "../FortuneCookie/FortuneCookie";
-
-import WeatherIcons from '../Weather/WeatherIcons';
+import NotFound from "../notFound/notFound";
 
 
 function Home() {
     const geo = useGeolocation(); 
     console.log(geo);
     return (
-        <AppLayout>
-            <Section>
-                <Location/>
-                <RecommendClothing/>
-            </Section>
-            <aside>
-                    {geo.loaded && geo.coordinates && (
-                    <WeatherIcons latitude={geo.coordinates.lat} longitude={geo.coordinates.lng} />
-                )}
-            </aside>
-            <Section>
-                <FortuneCookie/>
-            </Section>
-        </AppLayout>
+        <Provider store={store}>
+            <AppLayout>
+                <Routes>
+                    <Route path="/" element={<Section><Location/></Section>}></Route>
+                    <Route path="/wear" element={<Section><Wear/></Section>}></Route>
+                    <Route path="/fortune" element={<Section><FortuneCookie/></Section>}></Route>
+                    <Route path="*" element={<NotFound/>}></Route>
+                </Routes>
+            </AppLayout>
+        </Provider>
+
     );
 }
 

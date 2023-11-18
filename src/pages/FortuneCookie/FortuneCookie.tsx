@@ -1,5 +1,7 @@
 import React, {useState} from 'react';
 import styled from "styled-components";
+import DefaultButton from "../../components/Button/button";
+
 
 const fortunes = [
     "내일은 더 나은 하루가 될 것입니다.",
@@ -23,21 +25,18 @@ const FortuneCookie = () => {
     };
 
     return (
-        <Container>
+        <>
             <h2>포춘 쿠키</h2>
-            {fortune ? <p>{fortune}</p> : <p>쿠키를 깨보세요!🥠</p>}
-            <button onClick={crackCookie}>쿠키 깨기</button>
-        </Container>
+            <Content>{fortune ? <p>{fortune}</p> : <p>쿠키를 깨보세요!🥠</p>}</Content>
+            <DefaultButton onClick={crackCookie}>쿠키 깨기</DefaultButton>
+        </>
     );
 };
 
 export default FortuneCookie;
 
-const Container = styled.div`
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-`;
+const Content = styled.span`
+  height: 3%;
+  margin: 3% 0;
+  font-size: 100%;
+`

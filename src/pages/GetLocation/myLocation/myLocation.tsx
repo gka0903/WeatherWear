@@ -1,6 +1,8 @@
 import styled from "styled-components";
 import myLocation from "./icMylocation.svg";
 import useGeolocation from "./useGeolocation";
+import {useDispatch} from "react-redux";
+import {setMyLocation} from "../../redux/locationSlice";
 
 const Container = styled.div`
   width: 100%;
@@ -8,24 +10,27 @@ const Container = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 `;
 
 const Span = styled.span`
-  color: #4683FF;
+  color: white;
+  font-size: 80%;
   margin-left: 0.3%;
 `;
 
-// 이하 코드 동일
-
 const MyLocation = () => {
     const location = useGeolocation();
+    const dispatch = useDispatch();
+
     const loadLocation = () => {
-        console.log(JSON.stringify(location))
-    }
+        dispatch(setMyLocation(location));
+    };
+
     return (
         <Container onClick={loadLocation}>
             <img src={`${myLocation}`} alt=""/>
-            <Span>내 위치 불러오기</Span>
+            <Span>My Location</Span>
         </Container>
     );
 };
