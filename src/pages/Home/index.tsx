@@ -12,6 +12,7 @@ import Wear from "../Weather/Wear";
 import FortuneCookie from "../FortuneCookie/FortuneCookie";
 import NotFound from "../notFound/notFound";
 import {store} from "../redux/store";
+import RecommendClothing from "../Clothing/RecommendClothing";
 
 
 function Home() {
@@ -21,6 +22,7 @@ function Home() {
                 <Routes>
                     <Route path="/" element={<Section><Location/></Section>}></Route>
                     <Route path="/wear" element={<Section><Wear/></Section>}></Route>
+                    <Route path="/details" element={<Section><RecommendClothing/></Section>}/>
                     {/*<Route path="/Details/:id"*/}
                     {/*       element={<ClothingDetails currentTemp={currentTemp} currentClothing={currentClothing}/>}/>*/}
                     <Route path="/fortune" element={<Section><FortuneCookie/></Section>}></Route>

@@ -1,6 +1,8 @@
 import React, {useState} from "react";
 import {useParams} from "react-router-dom";
 
+// import clothingData from "./clothingData.json"
+
 interface ClothingDetailsProps {
     currentTemp: number;
     currentClothing: string[];
@@ -24,8 +26,8 @@ const ClothingDetails: React.FC<ClothingDetailsProps> = ({currentTemp, currentCl
     //     let imageArray;
     //
     //     if (currentTemp >= 28) {
-    //         dataArray = ClothingData.clothingdata.filter(data => data.temp == "28" && ["red", "orange", "yellow", "green", "blue", "navy", "purple"].includes(data.color));
-    //         imageArray = ClothingImage.filter(data => data.temp == "28" && ["red", "orange", "yellow", "green", "blue", "navy", "purple"].includes(data.color));
+    //         dataArray = clothingData.clothingdata.filter(data => data.temp == "28" && ["red", "orange", "yellow", "green", "blue", "navy", "purple"].includes(data.color));
+    //         imageArray = clothingData.filter(data => data.temp == "28" && ["red", "orange", "yellow", "green", "blue", "navy", "purple"].includes(data.color));
     //     }
     //         // else if (currentTemp >=24 && currentTemp <= 27){
     //
@@ -43,8 +45,8 @@ const ClothingDetails: React.FC<ClothingDetailsProps> = ({currentTemp, currentCl
     //
     //     // }
     //     else {
-    //         dataArray = ClothingData.clothingdata.filter(data => data.temp == "28" && ["red", "orange", "yellow", "green", "blue", "navy", "purple"].includes(data.color));
-    //         imageArray = ClothingImage.filter(data => data.temp == "28" && ["red", "orange", "yellow", "green", "blue", "navy", "purple"].includes(data.color));
+    //         dataArray = clothingData.clothingdata.filter(data => data.temp == "28" && ["red", "orange", "yellow", "green", "blue", "navy", "purple"].includes(data.color));
+    //         imageArray = clothingData.filter(data => data.temp == "28" && ["red", "orange", "yellow", "green", "blue", "navy", "purple"].includes(data.color));
     //     }
     //     setSelectedClothingData(dataArray);
     //     setSelectedImages(imageArray);
