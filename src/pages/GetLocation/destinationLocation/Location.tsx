@@ -4,7 +4,7 @@ import useGeoCoding from "./useGeoCoding";
 import MyLocation from "../myLocation/myLocation";
 import {Content, FormContainer, Input, Title} from "./style";
 import {useDispatch, useSelector} from "react-redux";
-import {setMyLocation} from "../../redux/locationSlice";
+import {setMyLocation} from "../../redux/slices/locationSlice";
 import {RootState} from "../../redux/store";
 
 
