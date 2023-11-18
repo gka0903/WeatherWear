@@ -1,32 +1,37 @@
 // WeatherService.ts
 import KEY from "../../keys/env";
 
-const API_KEY = KEY;
+const API_KEY = KEY; // API 키를 환경 변수나 별도의 설정 파일에서 가져옵니다.
 
-
-console.log(`API Key: ${API_KEY}`); // API 키 출력하여 확인
-
-
-interface WeatherData {
-    temp: number; // 온도
-    weather: string; // 날씨 상태
+interface WeatherForecast {
+  time: string;
+  temp: number;
+  icon: string;
 }
 
-export async function getWeather(lat: number, lon: number): Promise<WeatherData | null> {
-    try {
-        const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${API_KEY}&units=metric`);
-        //xml로 받고싶으면 metric뒤에 &mode=xml 추가작성, 근데 xml로하려면 밑에도 수정필요, 밑에는 JSON임
-        if (!response.ok) {
-            throw new Error('Weather data fetch failed');
-        }
-        const data = await response.json();
-        console.log("데이터 확인 ", data);
-        return {
-            temp: data.main.temp,
-            weather: data.weather[0].main,
-        };
-    } catch (error) {
-        console.error('Error fetching weather data:', error);
-        return null;
+export async function getWeatherForecast(lat: number, lon: number): Promise<WeatherForecast[] | null> {
+  try {
+    const response = await fetch(`https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=${API_KEY}&units=metric`);
+    if (!response.ok) {
+      throw new Error('Weather forecast fetch failed');
     }
+    const data = await response.json();
+    
+    const currentTime = new Date();
+    const endTime = new Date(currentTime.getTime() + 24 * 60 * 60 * 1000);
+
+    const forecasts = data.list.filter((item: any) => {
+      const forecastTime = new Date(item.dt_txt);
+      return forecastTime >= currentTime && forecastTime <= endTime;
+    }).map((item: any) => ({
+      time: item.dt_txt,
+      temp: item.main.temp,
+      icon: item.weather[0].icon,
+    }));
+    
+    return forecasts;
+  } catch (error) {
+    console.error('Error fetching weather forecast data:', error);
+    return null;
+  }
 }
