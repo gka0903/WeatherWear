@@ -20,7 +20,7 @@ const Span = styled.span`
 `;
 
 const MyLocation = () => {
-    const location = useGeolocation();
+    const location = useGeolocation().coordinates;
     const dispatch = useDispatch();
 
     const loadLocation = () => {
