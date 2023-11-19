@@ -30,7 +30,7 @@ const RecommendClothing = () => {
 
     useEffect(() => {
         recommendClothing(currentTemp);
-    }, [currentClothing]);
+    }, [currentTemp]);
 
     return (
         <>
