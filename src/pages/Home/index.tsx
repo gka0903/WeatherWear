@@ -1,14 +1,15 @@
 import {Section} from './styles';
 import AppLayout from "../../components/AppLayout";
-
+import useGeolocation from '../GetLocation/myLocation/useGeolocation';
 import Location from "../GetLocation/destinationLocation/Location";
 
+
 import {useSelector} from "react-redux";
+
 
 import React from "react";
 import {Route, Routes} from "react-router-dom";
 
-import Wear from "../Weather/Wear";
 import FortuneCookie from "../FortuneCookie/FortuneCookie";
 import NotFound from "../notFound/notFound";
 import {RootState} from "../redux/store";
@@ -31,6 +32,7 @@ function Home() {
                 <Route path="*" element={<NotFound/>}></Route>
             </Routes>
         </AppLayout>
+
     );
 }
 
