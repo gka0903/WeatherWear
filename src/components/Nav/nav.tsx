@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import {Link} from "react-router-dom";
 
 // 네비게이션 바 스타일
 const NavContainer = styled.nav`
@@ -31,25 +32,25 @@ const Navigation = () => {
         <NavContainer>
             {/* 로고 또는 홈 링크 */}
             <NavItem>
-                <a href="/">Location</a>
+                <Link to="/">Location</Link>
             </NavItem>
 
 
             {/* 메뉴 링크들 */}
             <NavItem>
-                <a href="/tops">Tops</a>
+                <Link to="/tops">Tops</Link>
             </NavItem>
             <NavItem>
-                <a href="/pants">Pants</a>
+                <Link to="/pants">Pants</Link>
             </NavItem>
             <NavItem>
-                <a href="/outer">Outer</a>
+                <Link to="/outer">Outer</Link>
             </NavItem>
             <NavItem>
-                <a href="/setUp">Set Up</a>
+                <Link to="/setUp">Set Up</Link>
             </NavItem>
             <NavItem>
-                <a href="/fortune">Fortune</a>
+                <Link to="/fortune">Fortune</Link>
             </NavItem>
 
         </NavContainer>

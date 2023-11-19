@@ -4,28 +4,34 @@ import useGeolocation from '../GetLocation/myLocation/useGeolocation';
 import Location from "../GetLocation/destinationLocation/Location";
 
 
-import {Provider} from "react-redux";
-import {store} from "../redux/store";
+import {useSelector} from "react-redux";
+
+
 import React from "react";
 import {Route, Routes} from "react-router-dom";
 
 import FortuneCookie from "../FortuneCookie/FortuneCookie";
 import NotFound from "../notFound/notFound";
+import {RootState} from "../redux/store";
+import RecommendClothing from "../Clothing/RecommendClothing";
+import ClothingDetails from "../Clothing/ClothingDetails";
 
 
 function Home() {
-    const geo = useGeolocation();
-    console.log(geo);
+    const currentTemp = useSelector((state: RootState) => state.temperature.value);
+    const currentClothing = useSelector((state: RootState) => state.clothes.value);
     return (
-        <Provider store={store}>
-            <AppLayout>
-                <Routes>
-                    <Route path="/" element={<Section><Location/></Section>}></Route>
-                    <Route path="/fortune" element={<Section><FortuneCookie/></Section>}></Route>
-                    <Route path="*" element={<NotFound/>}></Route>
-                </Routes>
-            </AppLayout>
-        </Provider>
+        <AppLayout>
+            <Routes>
+                <Route path="/" element={<Section><Location/></Section>}></Route>
+                <Route path="/wear" element={<Section><Wear/></Section>}></Route>
+                <Route path="/details" element={<Section><RecommendClothing/></Section>}/>
+                <Route path="/details/:id"
+                       element={<ClothingDetails currentTemp={currentTemp} currentClothing={currentClothing}/>}/>
+                <Route path="/fortune" element={<Section><FortuneCookie/></Section>}></Route>
+                <Route path="*" element={<NotFound/>}></Route>
+            </Routes>
+        </AppLayout>
 
     );
 }
