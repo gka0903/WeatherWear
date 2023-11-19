@@ -32,7 +32,7 @@ const WeatherIcons: React.FC<WeatherIconsProps> = ({ latitude, longitude }) => {
     const hours = date.getHours();
     const minutes = date.getMinutes();
     const ampm = hours >= 12 ? 'PM' : 'AM';
-    const formattedHours = hours % 12 || 12; // Converts 0 to 12 for 12 AM
+    const formattedHours = hours % 12 || 12; 
     const formattedMinutes = minutes < 10 ? `0${minutes}` : minutes;
     return `${ampm} ${formattedHours}:${formattedMinutes}`;
   };
