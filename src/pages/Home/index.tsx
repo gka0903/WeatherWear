@@ -1,6 +1,5 @@
 import {Section} from './styles';
 import AppLayout from "../../components/AppLayout";
-import useGeolocation from '../GetLocation/myLocation/useGeolocation';
 import Location from "../GetLocation/destinationLocation/Location";
 
 
@@ -24,7 +23,6 @@ function Home() {
         <AppLayout>
             <Routes>
                 <Route path="/" element={<Section><Location/></Section>}></Route>
-                <Route path="/wear" element={<Section><Wear/></Section>}></Route>
                 <Route path="/details" element={<Section><RecommendClothing/></Section>}/>
                 <Route path="/details/:id"
                        element={<ClothingDetails currentTemp={currentTemp} currentClothing={currentClothing}/>}/>
