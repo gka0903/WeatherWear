@@ -1,6 +1,5 @@
 import React from 'react';
 import {Container, Main} from './styles';
-import Navigation from "../Nav/nav";
 import GlobalStyle from "../../GlobalStyle";
 
 function AppLayout({children}: { children: React.ReactNode }) {
@@ -8,7 +7,7 @@ function AppLayout({children}: { children: React.ReactNode }) {
         <>
             <GlobalStyle/>
             <Container>
-                <Navigation/>
+                {/*<Navigation/>*/}
                 <Main>{children}</Main>
             </Container>
         </>

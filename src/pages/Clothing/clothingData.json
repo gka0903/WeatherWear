@@ -1,12 +1,12 @@
 {
-  "clothingdata": [
+  "clothes": [
     {
       "name": "민소매 티셔츠(로즈우드 레드)",
       "price": "₩220,000",
       "material": "",
       "details": "",
       "color": "red",
-      "temp": "28",
+      "temp": 28,
       "type": "top",
       "img": "./images/28img/Red/Red_Top.jpg"
     },
@@ -16,7 +16,7 @@
       "material": "",
       "details": "",
       "color": "red",
-      "temp": "28",
+      "temp": 28,
       "type": "bottom",
       "img": "./images/28img/Red/Red_Bottom.jpg"
     },
@@ -26,7 +26,7 @@
       "material": "",
       "details": "",
       "color": "red",
-      "temp": "28",
+      "temp": 28,
       "type": "accesary",
       "img": "./images/28img/Red/Red_Accesary.jpg"
     },
@@ -36,7 +36,7 @@
       "material": "",
       "details": "",
       "color": "red",
-      "temp": "28",
+      "temp": 28,
       "type": "shoes",
       "img": "./images/28img/Red/Red_Shoes.jpg"
     },
@@ -46,7 +46,7 @@
       "material": "100% 코튼",
       "details": "가먼트 다잉 기법으로 염색한 코튼으로 제작한 Acne Studios 플루오 블루 색상 티셔츠입니다. 야광 시즌 브랜드 로고와 골지 크루넥 디테일로 완성했습니다. 레귤러 핏으로 디자인했습니다.",
       "color": "orange",
-      "temp": "28",
+      "temp": 28,
       "type": "top",
       "img": "./images/28img/Orange/Orange_Top.jpg"
     },
@@ -56,7 +56,7 @@
       "material": "100% 코튼",
       "details": "중간 두께의 코튼 소재로 제작한 Acne Studios 소프트 그린 색상 스웨트 쇼츠입니다. 왼쪽 옆면 포켓 아래에 페이스 로고 패치를 더했습니다. 옆면 포켓과 패치 포켓으로 완성했습니다. 신축성 있는 허리 밴드를 더해 미디 길이의 레귤러 유니섹스 핏으로 디자인했습니다.",
       "color": "orange",
-      "temp": "28",
+      "temp": 28,
       "type": "bottom",
       "img": "./images/28img/Orange/Orange_Bottom.jpg"
     },
@@ -66,7 +66,7 @@
       "material": "79% 비스코스, 21% 실크",
       "details": "실크 혼방 크러시드 벨벳 소재로 제작한 Acne Studios 아쿠아 블루 색상 버킷 모자입니다. 리사이클 원단과 소재만을 사용한 제품입니다. 루프로 조절 가능한 드로우스트링 디테일을 더했습니다.",
       "color": "orange",
-      "temp": "28",
+      "temp": 28,
       "type": "accesary",
       "img": "./images/28img/Orange/Orange_Accesary.jpg"
     },
@@ -76,7 +76,7 @@
       "material": "어퍼: 49% 폴리에스테르, 31% 서모플라스틱 폴리우레탄, 20% 폴리우레탄, 안감: 100% 폴리에스테르, 밑창: 100% 고무",
       "details": "캔버스 토트백은 전체적인 Face 로고 애니메이션 프린트, 탈부착 가능한 장식용 믹스 체인 디테일, 옆면 Face 로고 라벨이 특징입니다. 내부 스냅 버튼 포켓과 뒷면에 주소 택이 있는 디자인입니다.",
       "color": "orange",
-      "temp": "28",
+      "temp": 28,
       "type": "shoes",
       "img": "./images/28img/Orange/Orange_Shoes.jpg"
     },
@@ -86,7 +86,7 @@
       "material": "",
       "details": "가벼운 코튼 저지 소재로 제작한 Acne Studios 소프트 그린 색상 티셔츠입니다. 가슴에 페이스 로고 패치를 더해 완성했습니다. 릴랙스 유니섹스 핏으로 디자인했습니다.",
       "color": "yellow",
-      "temp": "28",
+      "temp": 28,
       "type": "top",
       "img": "./images/28img/Yellow/Yellow_Top.jpg"
     },
@@ -96,7 +96,7 @@
       "material": "",
       "details": "Acne Studios 스모키 퍼플 쇼츠는 피그먼트 타이 염색으로 마감한 두꺼운 캔버스 면으로 제작했으며 뒷면 테이프 디테일이 특징입니다. 허리 밴드 뒷면에 페이스 로고 패치가 장식되어 있습니다. 앞면의 사선 포켓, 코인 포켓, 뒷면 패치 포켓으로 완성했습니다. 미드라이즈와 무릎 길이의 레귤러 유니섹스 핏을 연출했습니다.",
       "color": "yellow",
-      "temp": "28",
+      "temp": 28,
       "type": "bottom",
       "img": "./images/28img/Yellow/Yellow_Bottom.jpg"
     },
@@ -106,7 +106,7 @@
       "material": "",
       "details": "6개의 패널로 이루어진 Acne Studios 오션 그린 색상 베이스볼 캡모자입니다. 페이딩 코튼 소재로 제작했으며, 마이크로 페이스 로고를 더해 완성했습니다. 뒷면의 벨크로 여밈으로 사이즈를 조절할 수 있습니다.",
       "color": "yellow",
-      "temp": "28",
+      "temp": 28,
       "type": "accesary",
       "img": "./images/28img/Yellow/Yellow_Accesary.jpg"
     },
@@ -116,7 +116,7 @@
       "material": "",
       "details": "바스켓볼 스타일에서 영감을 얻은 Acne Studios 블루/화이트 색상 로우탑 스니커즈입니다. 가죽과 스웨이드 소재로 제작했으며, 고무 밑창을 더해 완성했습니다.",
       "color": "yellow",
-      "temp": "28",
+      "temp": 28,
       "type": "shoes",
       "img": "./images/28img/Yellow/Yellow_Shoes.jpg"
     },
@@ -126,7 +126,7 @@
       "material": "",
       "details": "오가닉 코튼 소재로 제작한 스틸 그레이 색상의 Acne Studios 티셔츠입니다. 앞면 중앙에 로고 디테일을 더해 포인트를 주었습니다.",
       "color": "green",
-      "temp": "28",
+      "temp": 28,
       "type": "top",
       "img": "./images/28img/Green/Green_Top.jpg"
     },
@@ -136,7 +136,7 @@
       "material": "",
       "details": "5포켓 구조의 다크 그레이 색상 Acne Studios 레귤러 핏 진입니다. 미드라이즈, 레귤러 기장, 부츠컷 레그 스타일입니다. 1992 진은 코튼 소재의 리지드 데님으로 제작했습니다.",
       "color": "green",
-      "temp": "28",
+      "temp": 28,
       "type": "bottom",
       "img": "./images/28img/Green/Green_Bottom.jpg"
     },
@@ -146,7 +146,7 @@
       "material": "",
       "details": "아이코닉한 아딜렛 슬라이드에서 영감을 얻은 편안하고 실용적인 클로그입니다. 이른 아침 운동을 오고가는 길, 느긋한 휴식과 외출 등 다양한 활동 시 가볍게 착용할 수 있습니다. 맞춘 듯한 풋베드가 아늑하고 부드럽게 발을 받쳐줍니다.",
       "color": "green",
-      "temp": "28",
+      "temp": 28,
       "type": "shoes",
       "img": "./images/28img/Green/Green_Shoes.jpg"
     },
@@ -156,7 +156,7 @@
       "material": "95% 코튼, 5% 엘라스테인",
       "details": "블러시 베이지 색상 Acne Studios 반소매 버튼업 셔츠는 평직 코튼으로 제작되었으며 레귤러 핏입니다.",
       "color": "blue",
-      "temp": "28",
+      "temp": 28,
       "type": "top",
       "img": "./images/28img/Blue/Blue_Top.jpg"
     },
@@ -166,7 +166,7 @@
       "material": "60% 코튼, 40% 폴리에스테르, 포켓 안감: 100% 코튼",
       "details": "5포켓 구조의 다크 그레이 색상 Acne Studios 레귤러 핏 진입니다. 미드라이즈, 레귤러 기장, 부츠컷 레그 스타일입니다. 1992 진은 코튼 소재의 리지드 데님으로 제작했습니다.코튼 혼방 소재로 제작한 Acne Studios 헤이즐 베이지 색상 팬츠입니다. 뒷면 포켓의 핑크 로고 플래그가 돋보입니다. 사선 포켓과 뒷면 패치 포켓도 눈여겨보세요. 미드라이즈에서 밑단까지 길게 내려오는 레귤러 핏입니다.",
       "color": "blue",
-      "temp": "28",
+      "temp": 28,
       "type": "bottom",
       "img": "./images/28img/Blue/Blue_Bottom.jpg"
     },
@@ -176,7 +176,7 @@
       "material": "100% 나일론, 안감: 100% 폴리에스테르",
       "details": "나일론 립스탑 소재로 제작한 Acne Studios 옐로우/브라운 색상 백팩입니다. 엠보싱 로고가 있는 스웨이드 소재의 태그를 더했습니다.",
       "color": "blue",
-      "temp": "28",
+      "temp": 28,
       "type": "accesary",
       "img": "./images/28img/Blue/Blue_Accesary.jpg"
     },
@@ -186,7 +186,7 @@
       "material": "어퍼: 100% 소가죽, 밑창: 100% 고무",
       "details": "Acne Studios 카멜 베이지 색상 로퍼입니다. 태닝 가죽과 크레이프 밑창으로 제작되었으며, 레이저 로고 애니메이션 디테일이 특징입니다.",
       "color": "blue",
-      "temp": "28",
+      "temp": 28,
       "type": "shoes",
       "img": "./images/28img/Blue/Blue_Shoes.jpg"
     },
@@ -196,7 +196,7 @@
       "material": "67% EcoVero 비스코스, 27% 재생 나일론",
       "details": "재생 나일론 소재를 사용해 릴랙스 핏으로 제작한 Acne Studios 블랙 색상 로고 리브 티셔츠입니다.",
       "color": "navy",
-      "temp": "28",
+      "temp": 28,
       "type": "top",
       "img": "./images/28img/Navy/Navy_Top.jpg"
     },
@@ -206,7 +206,7 @@
       "material": "50% 코튼, 50% 폴리에스테르, 포켓 안감: 100% 코튼, 포켓 안감: 65% 폴리에스테르, 35% 코튼",
       "details": "트윌 코튼 혼방 소재로 제작한 Acne Studios 블랙 색상 팬츠입니다. 앞면에 사선 포켓과 뒷면에 패치 포켓을 더했습니다. 레귤러 핏으로 디자인했습니다.",
       "color": "navy",
-      "temp": "28",
+      "temp": 28,
       "type": "bottom",
       "img": "./images/28img/Navy/Navy_Bottom.jpg"
     },
@@ -216,7 +216,7 @@
       "material": "100% 송아지 가죽, 안감: 100% 송아지 가죽, 밑창: 100% 송아지 가죽",
       "details": "가죽 소재로 제작한 Acne Studios 블랙/블랙 색상 더비 레이스업 신발입니다. 범프 토 디테일을 더했습니다.",
       "color": "navy",
-      "temp": "28",
+      "temp": 28,
       "type": "shoes",
       "img": "./images/28img/Navy/Navy_Shoes.jpg"
     },
@@ -226,7 +226,7 @@
       "material": "100% 코튼",
       "details": "Acne Studios 페일 그레이 멜란지 색상 티셔츠입니다. 앞면에 Acne Studios 1996 로고 스탬프를 더했으며, 스프레이 마감 처리한 코튼과 헴프 혼방 소재로 제작했습니다. 넥라인과 소맷단, 밑단에 디스트레스 디테일을 더한 유니섹스 핏으로 디자인했습니다.",
       "color": "purple",
-      "temp": "28",
+      "temp": 28,
       "type": "top",
       "img": "./images/28img/Purple/Purple_Top.jpg"
     },
@@ -236,7 +236,7 @@
       "material": "100% 코튼",
       "details": "트윌 위브 코튼 소재로 제작한 Acne Studios 화이트 색상 팬츠입니다. 옆면 포켓과 뒷면 웰트 포켓을 더해 완성했습니다. 레귤러 길이의 레귤러 핏으로 디자인했습니다. ",
       "color": "purple",
-      "temp": "28",
+      "temp": 28,
       "type": "bottom",
       "img": "./images/28img/Purple/Purple_Bottom.jpg"
     },
@@ -246,7 +246,7 @@
       "material": "겉감: 100%폴리에스터 / 안감: 100%폴리에스터",
       "details": "호숫가의 휴식부터 무더운 날의 아웃도어 활동까지 문밖으로 향하는 다양한 여정을 위해 준비된 아디다스 테렉스 샌들입니다. 미끄러운 선착장, 비에 젖은 바위에서도 흔들림 없는 고무 아웃솔의 극대화된 접지력과 안정감으로 모든 표면에서 안심하고 움직일 수 있습니다. 발에 맞춰 조절할 수 있는 스트랩이 최적의 핏을 선사하고, 가벼운 EVA 미드솔이 하루 종일 편안한 쿠셔닝을 제공합니다. 최소 50% 이상의 재활용 원료가 사용되었으며, 플라스틱 폐기물을 없애기 위한 친환경 솔루션의 일환으로 제작된 제품입니다.",
       "color": "purple",
-      "temp": "28",
+      "temp": 28,
       "type": "shoes",
       "img": "./images/28img/Purple/Purple_Shoes.jpg"
     }

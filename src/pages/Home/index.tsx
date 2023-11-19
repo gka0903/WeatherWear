@@ -25,7 +25,7 @@ function Home() {
                 <Route path="/" element={<Section><Location/></Section>}></Route>
                 <Route path="/details" element={<Section><RecommendClothing/></Section>}/>
                 <Route path="/details/:id"
-                       element={<ClothingDetails currentTemp={currentTemp} currentClothing={currentClothing}/>}/>
+                       element={<Section><ClothingDetails currentTemp={currentTemp} currentClothing={currentClothing}/></Section>}/>
                 <Route path="/fortune" element={<Section><FortuneCookie/></Section>}></Route>
                 <Route path="*" element={<NotFound/>}></Route>
             </Routes>
