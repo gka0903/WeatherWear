@@ -6,6 +6,8 @@ import {Content, FormContainer, Input, Title} from "./style";
 import {useDispatch, useSelector} from "react-redux";
 import {setMyLocation} from "../../redux/slices/locationSlice";
 import {RootState} from "../../redux/store";
+import DefaultButton from "../../../components/Button/button";
+import {Link} from "react-router-dom";
 
 
 const Location = () => {
@@ -36,6 +38,7 @@ const Location = () => {
                 <Content>
                     <Input onChange={loadLocation} placeholder="Enter a location"/>
                     <MyLocation/>
+                    <DefaultButton><Link to="/temperature">Temperature</Link></DefaultButton>
                 </Content>
             </FormContainer>
         </>

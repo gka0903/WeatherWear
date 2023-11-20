@@ -14,6 +14,7 @@ import NotFound from "../notFound/notFound";
 import {RootState} from "../redux/store";
 import RecommendClothing from "../Clothing/RecommendClothing";
 import ClothingDetails from "../Clothing/ClothingDetails";
+import Temperature from "../SetTemperature/Temperature";
 
 
 function Home() {
@@ -23,6 +24,7 @@ function Home() {
         <AppLayout>
             <Routes>
                 <Route path="/" element={<Section><Location/></Section>}></Route>
+                <Route path="/temperature" element={<Section><Temperature/></Section>}></Route>
                 <Route path="/details" element={<Section><RecommendClothing/></Section>}/>
                 <Route path="/details/:id"
                        element={<Section><ClothingDetails currentTemp={currentTemp} currentClothing={currentClothing}/></Section>}/>
