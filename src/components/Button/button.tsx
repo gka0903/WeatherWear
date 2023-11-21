@@ -8,6 +8,11 @@ const Container = styled(Button)`
   color: white;
   border: 1px solid white;
 
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
   &:hover {
     background-color: white;
     color: black;
