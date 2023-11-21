@@ -14,6 +14,9 @@ import NotFound from "../notFound/notFound";
 import {RootState} from "../redux/store";
 import RecommendClothing from "../Clothing/RecommendClothing";
 import ClothingDetails from "../Clothing/ClothingDetails";
+import TypeDetails from "../Clothing/TypeDetails";
+
+
 
 
 function Home() {
@@ -25,7 +28,8 @@ function Home() {
                 <Route path="/" element={<Section><Location/></Section>}></Route>
                 <Route path="/details" element={<Section><RecommendClothing/></Section>}/>
                 <Route path="/details/:id"
-                       element={<Section><ClothingDetails currentTemp={currentTemp} currentClothing={currentClothing}/></Section>}/>
+                       element={<Section><ClothingDetails currentTemp={currentTemp}/></Section>}/>
+                <Route path="/typedetails/:id" element={<Section><TypeDetails currentTemp={currentTemp}/></Section>}/>
                 <Route path="/fortune" element={<Section><FortuneCookie/></Section>}></Route>
                 <Route path="*" element={<NotFound/>}></Route>
             </Routes>
