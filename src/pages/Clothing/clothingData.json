@@ -258,7 +258,7 @@
       "color": "red",
       "temp": 24,
       "type": "top",
-      "img": "./images/24to27_img/red/red_top.jpg"
+      "img": "./images/24img/Red/red_top.jpg"
     },
     {
       "name": "피치 캔버스 팬츠(토피 브라운)",
@@ -268,7 +268,7 @@
       "color": "red",
       "temp": 24,
       "type": "bottom",
-      "img": "./images/24to27_img/red/red_pants.jpg"
+      "img": "./images/24img/Red/red_pants.jpg"
     },
     {
       "name": "PRINTED TOTE BAG (Black)",
@@ -278,7 +278,7 @@
       "color": "red",
       "temp": 24,
       "type": "accesary",
-      "img": "./images/24to27_img/red/red_Accesary.jpg"
+      "img": "./images/24img/Red/red_Accesary.jpg"
     },
     {
       "name": "프린트 하이탑 스니커즈",
@@ -288,7 +288,7 @@
       "color": "red",
       "temp": 24,
       "type": "shoes",
-      "img": "./images/24to27_img/red/red_shoes.jpg"
+      "img": "./images/24img/Red/red_shoes.jpg"
     },
     {
       "name": "폴로 티셔츠 (퍼플/그린)",
@@ -298,7 +298,7 @@
       "color": "orange",
       "temp": 24,
       "type": "top",
-      "img": "./images/24to27_img/Orange/Orange_top.jpg"
+      "img": "./images/24img/Orange/Orange_top.jpg"
     },
     {
       "name": "릴랙스 핏 진-2023",
@@ -308,7 +308,7 @@
       "color": "orange",
       "temp": 24,
       "type": "bottom",
-      "img": "./images/24to27_img/Orange/Orange_pants.jpg"
+      "img": "./images/24img/Orange/Orange_pants.jpg"
     },
     {
       "name": "코트 TNS프리미어",
@@ -318,7 +318,7 @@
       "color": "orange",
       "temp": 24,
       "type": "shoes",
-      "img": "./images/24to27_img/Orange/Orange_shoes.jpg"
+      "img": "./images/24img/Orange/Orange_shoes.jpg"
     },
     {
       "name": "낙서 프린트 티셔츠 (옵틱 화이트)",
@@ -328,7 +328,7 @@
       "color": "yellow",
       "temp": 24,
       "type": "top",
-      "img": "./images/24to27_img/Yellow/Yello_top.jpg"
+      "img": "./images/24img/Yellow/Yello_top.jpg"
     },
     {
       "name": "코튼 스웨츠 팬트(라이트 핑크)",
@@ -338,7 +338,7 @@
       "color": "yellow",
       "temp": 24,
       "type": "bottom",
-      "img": "./images/24to27_img/Yellow/Yello_pants.jpg"
+      "img": "./images/24img/Yellow/Yello_pants.jpg"
     },
     {
       "name": "로우탑 스니커즈(블루/화이트)",
@@ -348,7 +348,7 @@
       "color": "yellow",
       "temp": 24,
       "type": "shoes",
-      "img": "./images/24to27_img/Yellow/Yello_shoes.jpg"
+      "img": "./images/24img/Yellow/Yello_shoes.jpg"
     },
     {
       "name": "A.P.C. 로고 프린트 식스 패널 캡 모자",
@@ -358,7 +358,7 @@
       "color": "yellow",
       "temp": 24,
       "type": "accesary",
-      "img": "./images/24to27_img/Yellow/Yello_Accesary.jpg"
+      "img": "./images/24img/Yellow/Yello_Accesary.jpg"
     },
     {
       "name": "AMIRI  MA 바 로고 프린트 티셔츠",
@@ -368,7 +368,7 @@
       "color": "green",
       "temp": 24,
       "type": "top",
-      "img": "./images/24to27_img/Green/Green_Top.jpg"
+      "img": "./images/24img/Green/Green_Top.jpg"
     },
     {
       "name": "루즈 핏 진 - 1991 UNISEX(블루/블랙)",
@@ -378,7 +378,7 @@
       "color": "green",
       "temp": 24,
       "type": "bottom",
-      "img": "./images/24to27_img/Green/Green_pants.jpg"
+      "img": "./images/24img/Green/Green_pants.jpg"
     },
     {
       "name": "Palm Angels 팜 엔젤스 X 토즈 가죽 로우탑 스니커즈) ",
@@ -388,7 +388,7 @@
       "color": "green",
       "temp": 24,
       "type": "shoes",
-      "img": "./images/24to27_img/Green/Green_shoes.jpg"
+      "img": "./images/24img/Green/Green_shoes.jpg"
     },
     {
       "name": "Gucci 웹 스트라이프 칼라 피케 폴로 셔츠",
@@ -398,7 +398,7 @@
       "color": "blue",
       "temp": 24,
       "type": "top",
-      "img": "./images/24to27_img/Blue/Blue_Top.jpg"
+      "img": "./images/24img/Blue/Blue_Top.jpg"
     },
     {
       "name": "테일러드 팬츠(블랙)",
@@ -408,7 +408,7 @@
       "color": "blue",
       "temp": 24,
       "type": "bottom",
-      "img": "./images/24to27_img/Blue/Blue_Pants.jpg"
+      "img": "./images/24img/Blue/Blue_Pants.jpg"
     },
     {
       "name": "가죽 더비 슈즈 (블루/블랙)",
@@ -418,7 +418,7 @@
       "color": "blue",
       "temp": 24,
       "type": "shoes",
-      "img": "./images/24to27_img/Blue/Blue_Shoes.jpg"
+      "img": "./images/24img/Blue/Blue_Shoes.jpg"
     },
     {
       "name": "Off-White 부키시 로고 프린트 티셔츠",
@@ -428,7 +428,7 @@
       "color": "navy",
       "temp": 24,
       "type": "top",
-      "img": "./images/24to27_img/Navy/Navy_Top.jpg"
+      "img": "./images/24img/Navy/Navy_Top.jpg"
     },
     {
       "name": "Valentino Garavani 테일러드 스트레이트 팬츠",
@@ -438,7 +438,7 @@
       "color": "navy",
       "temp": 24,
       "type": "bottom",
-      "img": "./images/24to27_img/Navy/Navy_Pants.jpg"
+      "img": "./images/24img/Navy/Navy_Pants.jpg"
     },
     {
       "name": "가죽 더비 슈즈 (블루/블랙)",
@@ -448,7 +448,7 @@
       "color": "navy",
       "temp": 24,
       "type": "shoes",
-      "img": "./images/24to27_img/Navy/Navy_Shoes.jpg"
+      "img": "./images/24img/Navy/Navy_Shoes.jpg"
     },
     {
       "name": "Off-White 바인더 크로스 백",
@@ -458,7 +458,7 @@
       "color": "navy",
       "temp": 24,
       "type": "accesary",
-      "img": "./images/24to27_img/Navy/Navy_Accesary.jpg"
+      "img": "./images/24img/Navy/Navy_Accesary.jpg"
     },
     {
       "name": "프린트 티셔츠 - 릴랙스핏 유니섹스 (포슬린 화이트)",
@@ -468,7 +468,7 @@
       "color": "purple",
       "temp": 24,
       "type": "top",
-      "img": "./images/24to27_img/Purple/Purple_top.jpg"
+      "img": "./images/24img/Purple/Purple_top.jpg"
     },
     {
       "name": "코튼 스웨트 쇼츠 유니섹스 (라이트 그레이 멜란지)",
@@ -478,7 +478,7 @@
       "color": "purple",
       "temp": 24,
       "type": "bottom",
-      "img": "./images/24to27_img/Purple/Pruple_Pants.jpg"
+      "img": "./images/24img/Purple/Pruple_Pants.jpg"
     },
     {
       "name": "Nike X Off-White 에어 포스 1 바시티 메이즈 스니커즈",
@@ -488,7 +488,7 @@
       "color": "purple",
       "temp": 24,
       "type": "shoes",
-      "img": "./images/24to27_img/Purple/Pruple_shoes.jpg"
+      "img": "./images/24img/Purple/Pruple_shoes.jpg"
     },
     {
       "name": "데님 백팩 (라이트 블루/ 베이지)",
@@ -498,7 +498,7 @@
       "color": "purple",
       "temp": 24,
       "type": "accesary",
-      "img": "./images/24to27_img/Purple/Purple_accesary.jpg"
+      "img": "./images/24img/Purple/Purple_accesary.jpg"
     },
     {
       "name": "Off-White 부키시 로고 프린트 티셔츠",
@@ -508,7 +508,7 @@
       "color": "red",
       "temp": 20,
       "type": "top",
-      "img": "./images/20to23_img/Red/red_top.jpg"
+      "img": "./images/20img/Red/red_top.jpg"
     },
     {
       "name": "Palm Angels 로고 프린트 사이드 스트라이프 트랙팬츠",
@@ -518,7 +518,7 @@
       "color": "red",
       "temp": 20,
       "type": "bottom",
-      "img": "./images/20to23_img/Red/Red_Pants.jpg"
+      "img": "./images/20img/Red/Red_Pants.jpg"
     },
     {
       "name": "Versace 바로코 그레카 자카드 스니커즈",
@@ -528,7 +528,7 @@
       "color": "red",
       "temp": 20,
       "type": "shoes",
-      "img": "./images/20to23_img/Red/Red_Shoes.jpg"
+      "img": "./images/20img/Red/Red_Shoes.jpg"
     },
     {
       "name": "Casablanca 그래픽 프린트 옹브레 실크 셔츠",
@@ -538,7 +538,7 @@
       "color": "orange",
       "temp": 20,
       "type": "top",
-      "img": "./images/20to23_img/Orange/Orange_top.jpg"
+      "img": "./images/20img/Orange/Orange_top.jpg"
     },
     {
       "name": "Casablanca 레인보우 모노그램 실크 쇼츠",
@@ -548,7 +548,7 @@
       "color": "orange",
       "temp": 20,
       "type": "bottom",
-      "img": "./images/20to23_img/Orange/Orange_pants.jpg"
+      "img": "./images/20img/Orange/Orange_pants.jpg"
     },
     {
       "name": "Balmain B-이스트 로우탑 스니커즈",
@@ -558,7 +558,7 @@
       "color": "orange",
       "temp": 20,
       "type": "shoes",
-      "img": "./images/20to23_img/Orange/Orange_SHoes.jpg"
+      "img": "./images/20img/Orange/Orange_SHoes.jpg"
     },
     {
       "name": "Mackintosh 왁싱 버킷 햇",
@@ -568,7 +568,7 @@
       "color": "orange",
       "temp": 20,
       "type": "accesary",
-      "img": "./images/20to23_img/Orange/Orange_Accesary.jpg"
+      "img": "./images/20img/Orange/Orange_Accesary.jpg"
     },
     {
       "name": "Moncler 몽클레어 로고 패치 반소매 폴로 셔츠",
@@ -578,7 +578,7 @@
       "color": "orange",
       "temp": 20,
       "type": "accesary",
-      "img": "./images/20to23_img/Orange/Orange_Accesary.jpg"
+      "img": "./images/20img/Orange/Orange_Accesary.jpg"
     },
     {
       "name": "Moncler 몽클레어 로고 패치 반소매 폴로 셔츠",
@@ -588,7 +588,7 @@
       "color": "yellow",
       "temp": 20,
       "type": "accesary",
-      "img": "./images/20to23_img/Yellow/Yellow_top.jpg"
+      "img": "./images/20img/Yellow/Yellow_top.jpg"
     },
     {
       "name": "TWILL COTTON-BLEND TROUSERS (Electric purple)",
@@ -598,7 +598,7 @@
       "color": "yellow",
       "temp": 20,
       "type": "bottom",
-      "img": "./images/20to23_img/Yellow/Yellow_pants.jpg"
+      "img": "./images/20img/Yellow/Yellow_pants.jpg"
     },
     {
       "name": "Balenciaga 트랙 레이스업 스니커즈",
@@ -608,7 +608,7 @@
       "color": "yellow",
       "temp": 20,
       "type": "shoes",
-      "img": "./images/20to23_img/Yellow/Yellow_shoes.jpg"
+      "img": "./images/20img/Yellow/Yellow_shoes.jpg"
     },
     {
       "name": "테일러드 팬츠 블랙",
@@ -618,7 +618,7 @@
       "color": "green",
       "temp": 20,
       "type": "bottom",
-      "img": "./images/20to23_img/Green/Green_pants.jpg"
+      "img": "./images/20img/Green/Green_pants.jpg"
     },
     {
       "name": "Thom Browne 스트라이프 저지 티셔츠",
@@ -628,7 +628,7 @@
       "color": "green",
       "temp": 20,
       "type": "top",
-      "img": "./images/20to23_img/Green/Green_tps.jpg"
+      "img": "./images/20img/Green/Green_tps.jpg"
     },
     {
       "name": "Neil Barrett 브론스키 아일렛 디테일 가죽 스니커즈",
@@ -638,7 +638,7 @@
       "color": "green",
       "temp": 20,
       "type": "shoes",
-      "img": "./images/20to23_img/Green/Grren_SHoes.jpg"
+      "img": "./images/20img/Green/Grren_SHoes.jpg"
     },
     {
       "name": "Burberry 버버리 반소매 체크 포플린 셔츠",
@@ -648,7 +648,7 @@
       "color": "blue",
       "temp": 20,
       "type": "top",
-      "img": "./images/20to23_img/Blue/blue_top.jpg"
+      "img": "./images/20img/Blue/blue_top.jpg"
     },
     {
       "name": "레귤러 핏 진 - 1996 인디고 블루",
@@ -658,7 +658,7 @@
       "color": "blue",
       "temp": 20,
       "type": "bottom",
-      "img": "./images/20to23_img/Blue/blue_pants.jpg"
+      "img": "./images/20img/Blue/blue_pants.jpg"
     },
     {
       "name": "Balenciaga 트랙터 가죽 로퍼",
@@ -668,7 +668,7 @@
       "color": "blue",
       "temp": 20,
       "type": "shoes",
-      "img": "./images/20to23_img/Blue/blue_shoes.jpg"
+      "img": "./images/20img/Blue/blue_shoes.jpg"
     },
     {
       "name": "Zegna 호보 파노라마 숄더 백",
@@ -678,7 +678,7 @@
       "color": "blue",
       "temp": 20,
       "type": "accesary",
-      "img": "./images/20to23_img/Blue/blue_accesary.jpg"
+      "img": "./images/20img/Blue/blue_accesary.jpg"
     },
     {
       "name": "Thom Browne 4바 스트라이프 2003 프린트 폴로 셔츠",
@@ -688,7 +688,7 @@
       "color": "navy",
       "temp": 20,
       "type": "top",
-      "img": "./images/20to23_img/Navy/navy_top.jpg"
+      "img": "./images/20img/Navy/navy_top.jpg"
     },
     {
       "name": "Thom Browne 언컨스트럭티드 4바 스카이 모티프 치노 팬츠",
@@ -698,7 +698,7 @@
       "color": "navy",
       "temp": 20,
       "type": "bottom",
-      "img": "./images/20to23_img/Navy/navy_pants.jpg"
+      "img": "./images/20img/Navy/navy_pants.jpg"
     },
     {
       "name": "Golden Goose 라운드 토 레이스업 스니커즈",
@@ -708,7 +708,7 @@
       "color": "navy",
       "temp": 20,
       "type": "shoes",
-      "img": "./images/20to23_img/Navy/navy_shoes.jpg"
+      "img": "./images/20img/Navy/navy_shoes.jpg"
     },
     {
       "name": "카고 점프수트 (라이트 퍼플)",
@@ -718,7 +718,7 @@
       "color": "purple",
       "temp": 20,
       "type": "top",
-      "img": "./images/20to23_img/Purple/Purple_pants.jpg"
+      "img": "./images/20img/Purple/Purple_pants.jpg"
     },
     {
       "name": "Versace 그레카 인조 가죽 스니커즈",
@@ -728,7 +728,7 @@
       "color": "purple",
       "temp": 20,
       "type": "shoes",
-      "img": "./images/20to23_img/Purple/Pueple_shoes.jpg"
+      "img": "./images/20img/Purple/Pueple_shoes.jpg"
     },
     {
       "name": "AMIRI 아트 디스트릭트 패널 캡 모자",
@@ -738,7 +738,7 @@
       "color": "purple",
       "temp": 20,
       "type": "accesary",
-      "img": "./images/20to23_img/Purple/Purple_accesary.jpg"
+      "img": "./images/20img/Purple/Purple_accesary.jpg"
     },
     {
       "name": "Jil Sander 로고 프린트 긴소매 탑",
@@ -748,7 +748,7 @@
       "color": "red",
       "temp": 17,
       "type": "top",
-      "img": "./images/17to19_img/Red/Red_top.jpg"
+      "img": "./images/17img/Red/Red_top.jpg"
     },
     {
       "name": "Burberry logo-print track trousers",
@@ -758,7 +758,7 @@
       "color": "red",
       "temp": 17,
       "type": "bottom",
-      "img": "./images/17to19_img/Red/Red_pants.jpg"
+      "img": "./images/17img/Red/Red_pants.jpg"
     },
     {
       "name": "Gucci 구찌 GG 엠보스드 로우탑 스니커즈",
@@ -768,7 +768,7 @@
       "color": "red",
       "temp": 17,
       "type": "shoes",
-      "img": "./images/17to19_img/Red/Red_shoes.jpg"
+      "img": "./images/17img/Red/Red_shoes.jpg"
     },
     {
       "name": "Off-White 쿠리 플랩 드로스트링 백팩",
@@ -778,7 +778,7 @@
       "color": "red",
       "temp": 17,
       "type": "accesary",
-      "img": "./images/17to19_img/Red/Red_accesary.jpg"
+      "img": "./images/17img/Red/Red_accesary.jpg"
     },
     {
       "name": "Orlebar Brown 토마스 스트라이프 패턴 크로셰 셔츠",
@@ -788,7 +788,7 @@
       "color": "orange",
       "temp": 17,
       "type": "top",
-      "img": "./images/17to19_img/Orange/Orange_top.jpg"
+      "img": "./images/17img/Orange/Orange_top.jpg"
     },
     {
       "name": "Orlebar Brown 앰브로스 리넨 혼방 쇼츠",
@@ -798,7 +798,7 @@
       "color": "orange",
       "temp": 17,
       "type": "bottom",
-      "img": "./images/17to19_img/Orange/Orange_pants.jpg"
+      "img": "./images/17img/Orange/Orange_pants.jpg"
     },
     {
       "name": "로고 자수 가죽 로우탑 스니커즈",
@@ -808,7 +808,7 @@
       "color": "orange",
       "temp": 17,
       "type": "shoes",
-      "img": "./images/17to19_img/Orange/Orange_shoes.jpg"
+      "img": "./images/17img/Orange/Orange_shoes.jpg"
     },
     {
       "name": "A.P.C. 타이스 데님 미니 토트 백",
@@ -818,7 +818,7 @@
       "color": "yellow",
       "temp": 17,
       "type": "accesary",
-      "img": "./images/17to19_img/Yellow/Yellow_accesary.jpg"
+      "img": "./images/17img/Yellow/Yellow_accesary.jpg"
     },
     {
       "name": "로고 후디 네온핑크",
@@ -828,7 +828,7 @@
       "color": "yellow",
       "temp": 17,
       "type": "top",
-      "img": "./images/17to19_img/Yellow/Yellow_Top.jpg"
+      "img": "./images/17img/Yellow/Yellow_Top.jpg"
     },
     {
       "name": "데님 팬츠 라이트 블루",
@@ -838,7 +838,7 @@
       "color": "yellow",
       "temp": 17,
       "type": "bottom",
-      "img": "./images/17to19_img/Yellow/Yellow_pants.jpg"
+      "img": "./images/17img/Yellow/Yellow_pants.jpg"
     },
     {
       "name": "Axel Arigato 클린 90 로우탑 스니커즈",
@@ -848,7 +848,7 @@
       "color": "yellow",
       "temp": 17,
       "type": "shoes",
-      "img": "./images/17to19_img/Yellow/Yellow_shoes.jpg"
+      "img": "./images/17img/Yellow/Yellow_shoes.jpg"
     },
     {
       "name": "Palm Angels 모노그램 자수 가죽 에스파드리유",
@@ -858,7 +858,7 @@
       "color": "green",
       "temp": 17,
       "type": "accesary",
-      "img": "./images/17to19_img/Green/Green_accesary.jpg"
+      "img": "./images/17img/Green/Green_accesary.jpg"
     },
     {
       "name": "Dsquared 디스퀘어드2 로고 프린트 로우탑 스니커즈",
@@ -868,7 +868,7 @@
       "color": "green",
       "temp": 17,
       "type": "shoes",
-      "img": "./images/17to19_img/Green/Green_shoes.jpg"
+      "img": "./images/17img/Green/Green_shoes.jpg"
     },
     {
       "name": "Casablanca 모노그램 자카드 폴로 셔츠",
@@ -878,7 +878,7 @@
       "color": "green",
       "temp": 17,
       "type": "top",
-      "img": "./images/17to19_img/Green/Green_tops.jpg"
+      "img": "./images/17img/Green/Green_tops.jpg"
     },
     {
       "name": "테일러드 팬츠 블랙",
@@ -888,7 +888,7 @@
       "color": "green",
       "temp": 17,
       "type": "bottom",
-      "img": "./images/17to19_img/Green/Green_pants.jpg"
+      "img": "./images/17img/Green/Green_pants.jpg"
     },
     {
       "name": "반소매 버튼업 셔츠 더스티 블루",
@@ -898,7 +898,7 @@
       "color": "blue",
       "temp": 17,
       "type": "top",
-      "img": "./images/17to19_img/Blue/blue_tops.jpg"
+      "img": "./images/17img/Blue/blue_tops.jpg"
     },
     {
       "name": "Alexander McQueen 턴업 커프스 스트레이트 진",
@@ -908,7 +908,7 @@
       "color": "blue",
       "temp": 17,
       "type": "bottom",
-      "img": "./images/17to19_img/Blue/blue_pants.jpg"
+      "img": "./images/17img/Blue/blue_pants.jpg"
     },
     {
       "name": "Alexander McQueen 알렉산더 맥퀸 트레드 청키 솔 레이스업 부츠",
@@ -918,7 +918,7 @@
       "color": "blue",
       "temp": 17,
       "type": "shoes",
-      "img": "./images/17to19_img/Blue/b;ue_shoes.jpg"
+      "img": "./images/17img/Blue/b;ue_shoes.jpg"
     },
     {
       "name": "Thom Browne 스트라이프 디테일 코튼 폴로 셔츠",
@@ -928,7 +928,7 @@
       "color": "navy",
       "temp": 17,
       "type": "top",
-      "img": "./images/17to19_img/Navy/navy_top.jpg"
+      "img": "./images/17img/Navy/navy_top.jpg"
     },
     {
       "name": "Thom Browne 4 바 테일러드 팬츠",
@@ -938,7 +938,7 @@
       "color": "navy",
       "temp": 17,
       "type": "bottom",
-      "img": "./images/17to19_img/Navy/navy-pants.jpg"
+      "img": "./images/17img/Navy/navy-pants.jpg"
     },
     {
       "name": "Jimmy Choo 마르티 리버스 가죽 로퍼",
@@ -948,7 +948,7 @@
       "color": "navy",
       "temp": 17,
       "type": "shoes",
-      "img": "./images/17to19_img/Navy/navy_shhoes.jpg"
+      "img": "./images/17img/Navy/navy_shhoes.jpg"
     },
     {
       "name": "Thom Browne 페블 텍스처 백팩",
@@ -958,7 +958,7 @@
       "color": "navy",
       "temp": 17,
       "type": "accesary",
-      "img": "./images/17to19_img/Navy/navy_accesary.jpg"
+      "img": "./images/17img/Navy/navy_accesary.jpg"
     },
     {
       "name": "JW Anderson JW 앤더슨 X 아페쎄 조 그래픽 프린트 티셔츠",
@@ -968,7 +968,7 @@
       "color": "purple",
       "temp": 17,
       "type": "top",
-      "img": "./images/17to19_img/Purple/Purple_top.jpg"
+      "img": "./images/17img/Purple/Purple_top.jpg"
     },
     {
       "name": "Burberry EKD 자수 트랙팬츠",
@@ -978,7 +978,7 @@
       "color": "purple",
       "temp": 17,
       "type": "bottom",
-      "img": "./images/17to19_img/Purple/Pruple_pants.jpg"
+      "img": "./images/17img/Purple/Pruple_pants.jpg"
     },
     {
       "name": "Dolce & Gabbana 클래식 포르토피노 스니커즈",
@@ -988,7 +988,7 @@
       "color": "purple",
       "temp": 17,
       "type": "shoes",
-      "img": "./images/17to19_img/Purple/Pueple_shoes.jpg"
+      "img": "./images/17img/Purple/Pueple_shoes.jpg"
     },
     {
       "name": "Heron Preston 몬스터 후드 집업",
@@ -998,7 +998,7 @@
       "color": "red",
       "temp": 11,
       "type": "outer",
-      "img": "./images/11to16_img/Red/Red_Outer.jpg"
+      "img": "./images/11img/Red/Red_Outer.jpg"
     },
     {
       "name": "코튼 티셔츠(블랙)",
@@ -1008,7 +1008,7 @@
       "color": "red",
       "temp": 11,
       "type": "top",
-      "img": "./images/11to16_img/Red/Red_Top.jpg"
+      "img": "./images/11img/Red/Red_Top.jpg"
     },
     {
       "name": "코튼 스웨트팬츠 (블랙)",
@@ -1018,7 +1018,7 @@
       "color": "red",
       "temp": 11,
       "type": "bottom",
-      "img": "./images/11to16_img/Red/Red_pants.jpg"
+      "img": "./images/11img/Red/Red_pants.jpg"
     },
     {
       "name": "Ferragamo 트레킹 하이탑 스니커즈",
@@ -1028,7 +1028,7 @@
       "color": "red",
       "temp": 11,
       "type": "shoes",
-      "img": "./images/11to16_img/Red/Red_shoes.jpg"
+      "img": "./images/11img/Red/Red_shoes.jpg"
     },
     {
       "name": "Prada 프라다 로고 장식 백팩",
@@ -1038,7 +1038,7 @@
       "color": "red",
       "temp": 11,
       "type": "accesary",
-      "img": "./images/11to16_img/Red/Red_accesary.jpg"
+      "img": "./images/11img/Red/Red_accesary.jpg"
     },
     {
       "name": "보타니컬 랜드스케이프 코튼 후디",
@@ -1048,7 +1048,7 @@
       "color": "orange",
       "temp": 11,
       "type": "top",
-      "img": "./images/11to16_img/Orange/Orange_top.jpg"
+      "img": "./images/11img/Orange/Orange_top.jpg"
     },
     {
       "name": "ACRONYM P53 고어텍스 테이퍼드 드롭 크로치 팬츠",
@@ -1058,7 +1058,7 @@
       "color": "orange",
       "temp": 11,
       "type": "bottom",
-      "img": "./images/11to16_img/Orange/Orange_pants.jpg"
+      "img": "./images/11img/Orange/Orange_pants.jpg"
     },
     {
       "name": "ROA 미나르 패널 버클 스니커즈",
@@ -1068,7 +1068,7 @@
       "color": "orange",
       "temp": 11,
       "type": "shoes",
-      "img": "./images/11to16_img/Orange/Orange_Shoes.jpg"
+      "img": "./images/11img/Orange/Orange_Shoes.jpg"
     },
     {
       "name": "레귤러 핏 덩가리 유니섹스 스모키 퍼플",
@@ -1078,7 +1078,7 @@
       "color": "yellow",
       "temp": 11,
       "type": "bottom",
-      "img": "./images/11to16_img/Yellow/Yellow_pants.jpg"
+      "img": "./images/11img/Yellow/Yellow_pants.jpg"
     },
     {
       "name": "크루넥 스웨터 유니섹스 틸 블루",
@@ -1088,7 +1088,7 @@
       "color": "yellow",
       "temp": 11,
       "type": "top",
-      "img": "./images/11to16_img/Yellow/YEllow_top.jpg"
+      "img": "./images/11img/Yellow/Yellow_top.jpg"
     },
     {
       "name": "가죽 로우탑 스니커즈 화이트/오프 화이트",
@@ -1098,7 +1098,7 @@
       "color": "yellow",
       "temp": 11,
       "type": "shoes",
-      "img": "./images/11to16_img/Yellow/Yellow_shhoes.jpg"
+      "img": "./images/11img/Yellow/Yellow_shhoes.jpg"
     },
     {
       "name": "Maison Kitsuné 로고 패치 긴소매 티셔츠",
@@ -1108,7 +1108,7 @@
       "color": "green",
       "temp": 11,
       "type": "top",
-      "img": "./images/11to16_img/Green/Green_top.jpg"
+      "img": "./images/11img/Green/Green_top.jpg"
     },
     {
       "name": "AMI Paris 테일러드 스트레이트 팬츠",
@@ -1118,7 +1118,7 @@
       "color": "green",
       "temp": 11,
       "type": "bottom",
-      "img": "./images/11to16_img/Green/Green_pants.jpg"
+      "img": "./images/11img/Green/Green_pants.jpg"
     },
     {
       "name": "Raf Simons 오리온 로우탑 스니커즈",
@@ -1128,7 +1128,7 @@
       "color": "green",
       "temp": 11,
       "type": "shoes",
-      "img": "./images/11to16_img/Green/Green_shoes.jpg"
+      "img": "./images/11img/Green/Green_shoes.jpg"
     },
     {
       "name": "Ferragamo 간치니 패턴 노트북 케이스",
@@ -1138,7 +1138,7 @@
       "color": "green",
       "temp": 11,
       "type": "accesary",
-      "img": "./images/11to16_img/Green/Green_accesary.jpg"
+      "img": "./images/11img/Green/Green_accesary.jpg"
     },
     {
       "name": "BOSS 로고 자수 크루 넥 티셔츠",
@@ -1148,7 +1148,7 @@
       "color": "blue",
       "temp": 11,
       "type": "top",
-      "img": "./images/11to16_img/Blue/blue_top.jpg"
+      "img": "./images/11img/Blue/blue_top.jpg"
     },
     {
       "name": "Golden Goose 위스커 이펙트 스트레이트 진",
@@ -1158,7 +1158,7 @@
       "color": "blue",
       "temp": 11,
       "type": "bottom",
-      "img": "./images/11to16_img/Blue/blue_pants.jpg"
+      "img": "./images/11img/Blue/blue_pants.jpg"
     },
     {
       "name": "크루넥 가디건",
@@ -1168,7 +1168,7 @@
       "color": "blue",
       "temp": 11,
       "type": "outer",
-      "img": "./images/11to16_img/Blue/blue_outer.jpg"
+      "img": "./images/11img/Blue/blue_outer.jpg"
     },
     {
       "name": "Versace 바로코 그레카 자카드 스니커즈",
@@ -1178,7 +1178,7 @@
       "color": "blue",
       "temp": 11,
       "type": "shoes",
-      "img": "./images/11to16_img/Blue/blue_shoes.jpg"
+      "img": "./images/11img/Blue/blue_shoes.jpg"
     },
     {
       "name": "Thom Browne 4-바 솔리드 RWB 스트라이프 셔츠",
@@ -1188,7 +1188,7 @@
       "color": "navy",
       "temp": 11,
       "type": "top",
-      "img": "./images/11to16_img/Navy/navy_top.jpg"
+      "img": "./images/11img/Navy/navy_top.jpg"
     },
     {
       "name": "Thom Browne 4-바 밀라노 스티치 카디건",
@@ -1198,7 +1198,7 @@
       "color": "navy",
       "temp": 11,
       "type": "outer",
-      "img": "./images/11to16_img/Navy/navy_outer.jpg"
+      "img": "./images/11img/Navy/navy_outer.jpg"
     },
     {
       "name": "Jil Sander 스트레이트 테일러드 팬츠",
@@ -1208,7 +1208,7 @@
       "color": "navy",
       "temp": 11,
       "type": "bottom",
-      "img": "./images/11to16_img/Navy/navy_bottom.jpg"
+      "img": "./images/11img/Navy/navy_bottom.jpg"
     },
     {
       "name": "Maison Margiela 메종 마르지엘라 가죽 페니 로퍼",
@@ -1218,7 +1218,7 @@
       "color": "navy",
       "temp": 11,
       "type": "shoes",
-      "img": "./images/11to16_img/Navy/navy_shoes.jpg"
+      "img": "./images/11img/Navy/navy_shoes.jpg"
     },
     {
       "name": "크루넥 니트 스웨터 유니섹스 스틸 블루 멜란지",
@@ -1228,8 +1228,9 @@
       "color": "purple",
       "temp": 11,
       "type": "top",
-      "img": "./images/11to16_img/Purple/purple_top.jpg"
-    }, {
+      "img": "./images/11img/Purple/purple_top.jpg"
+    },
+    {
       "name": "패치 캔버스 팬츠 유니섹스 카본 그레이",
       "price": "₩580,000",
       "material": "100% 코튼, 포켓 안감: 65% 폴리에스테르, 35% 코튼",
@@ -1237,8 +1238,9 @@
       "color": "purple",
       "temp": 11,
       "type": "bottom",
-      "img": "./images/11to16_img/Purple/puurple_pants.jpg"
-    }, {
+      "img": "./images/11img/Purple/puurple_pants.jpg"
+    },
+    {
       "name": "Dolce & Gabbana 클래식 포르토피노 스니커즈",
       "price": "₩820,000",
       "material": "겉감: 가죽 100%, 안감: 가죽 100%, 밑창: 고무 100%",
@@ -1246,8 +1248,9 @@
       "color": "purple",
       "temp": 11,
       "type": "shoes",
-      "img": "./images/11to16_img/Purple/purple_shoes.jpg"
-    }, {
+      "img": "./images/11img/Purple/purple_shoes.jpg"
+    },
+    {
       "name": "Thom Browne 코듀로이 버킷 햇",
       "price": "₩890,000",
       "material": "울 100%. 안감: 코튼 100%",
@@ -1255,8 +1258,9 @@
       "color": "purple",
       "temp": 11,
       "type": "accesary",
-      "img": "./images/11to16_img/Purple/purple_accesary.jpg"
-    }, {
+      "img": "./images/11img/Purple/purple_accesary.jpg"
+    },
+    {
       "name": "Dolce & Gabbana 꿀벌 자수 스웨트셔츠",
       "price": "₩1,080,000",
       "material": "코튼 100%",
@@ -1264,8 +1268,9 @@
       "color": "red",
       "temp": 6,
       "type": "top",
-      "img": "./images/6to10_img/Red/REd_top.jpg"
-    }, {
+      "img": "./images/6img/Red/REd_top.jpg"
+    },
+    {
       "name": "Versace 메두사 헤드 모티프 진",
       "price": "₩1,310,000",
       "material": "코튼 100%",
@@ -1273,8 +1278,9 @@
       "color": "red",
       "temp": 6,
       "type": "bottom",
-      "img": "./images/6to10_img/Red/REd_pants.jpg"
-    }, {
+      "img": "./images/6img/Red/REd_pants.jpg"
+    },
+    {
       "name": "Alexander McQueen 알렉산더 맥퀸 코트 로우탑 스니커즈",
       "price": "₩745,000",
       "material": "",
@@ -1282,8 +1288,9 @@
       "color": "red",
       "temp": 6,
       "type": "shoes",
-      "img": "./images/6to10_img/Red/Red_shoes.jpg"
-    }, {
+      "img": "./images/6img/Red/Red_shoes.jpg"
+    },
+    {
       "name": "시어링 칼라 재킷 ",
       "price": "₩1,150,000",
       "material": "소재: 100% 폴리에스테르, 인조 퍼: 70% 폴레에스테르, 20% 울, 10% 아크릴, 안감: 55% 폴리에스테르, 45% 비스코스, 포켓 안감: 65% 폴리에스테르, 35% 코튼, 충전재:",
@@ -1291,8 +1298,7 @@
       "color": "red",
       "temp": 6,
       "type": "outer",
-      "img": "./images/6to10_img/Red/Red_Outer.jpg"
-    }
+      "img": "./images/6img/Red/Red_Outer.jpg"
     }
   ]
 }

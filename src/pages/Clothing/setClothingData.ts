@@ -12,15 +12,15 @@ const SetCurrentClothing = () => {
         if (currentTemp >= 28) {
             dispatch(setClothes(clothingData.clothes.filter(data => data.temp === 28)));
         } else if (currentTemp >= 24 && currentTemp <= 27) {
-            // Handle other cases if needed
+            dispatch(setClothes(clothingData.clothes.filter(data => data.temp === 24)));
         } else if (currentTemp >= 20 && currentTemp <= 23) {
-            // Handle other cases if needed
+            dispatch(setClothes(clothingData.clothes.filter(data => data.temp === 20)));
         } else if (currentTemp >= 17 && currentTemp <= 19) {
-            // Handle other cases if needed
+            dispatch(setClothes(clothingData.clothes.filter(data => data.temp === 17)));
         } else if (currentTemp >= 11 && currentTemp <= 16) {
-            // Handle other cases if needed
+            dispatch(setClothes(clothingData.clothes.filter(data => data.temp === 11)));
         } else if (currentTemp >= 6 && currentTemp <= 10) {
-            // Handle other cases if needed
+            dispatch(setClothes(clothingData.clothes.filter(data => data.temp === 6)));
         } else {
             dispatch(setClothes(clothingData.clothes.filter(data => data.temp === 0)));
         }

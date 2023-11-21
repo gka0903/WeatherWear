@@ -26,14 +26,14 @@ const ClothingDetails = () => {
         <div>
             <h2>{clothingSetName}</h2>
             {selectedClothingData && selectedClothingData
-                .filter(data => data.color === ["red", "orange", "yellow", "green", "blue", "navy", "purple"][clothingId])
+                .filter(data => data.color === ["Red", "orange", "yellow", "green", "blue", "navy", "purple"][clothingId])
                 .map((item: any, index: number) => (
                     <div key={index} style={{display: 'flex'}}>
                         <div>
                             <img
                                 src={require(
                                     `${selectedClothingData
-                                        .filter(data => data.color === ["red", "orange", "yellow", "green", "blue", "navy", "purple"][clothingId])[index].img}`
+                                        .filter(data => data.color === ["Red", "orange", "yellow", "green", "blue", "navy", "purple"][clothingId])[index].img}`
                                 )}
                                 alt={`img ${index}`} style={{width: "150px", height: "150px"}}/>
                             <p>{item.name} {item.price}</p>
