@@ -2,7 +2,7 @@ import styled from "styled-components";
 import myLocation from "./icMylocation.svg";
 import useGeolocation from "./useGeolocation";
 import {useDispatch} from "react-redux";
-import {setMyLocation} from "../../redux/slices/locationSlice";
+import {setMyLocation} from "../../../redux/slices/locationSlice";
 
 const Container = styled.div`
   width: 100%;

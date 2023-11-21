@@ -1,11 +1,10 @@
 import React, {useEffect, useState} from "react";
 import {useParams} from "react-router-dom";
 import clothingData from "./clothingData.json"
+import {useDispatch, useSelector} from "react-redux";
+import {setClothes} from "../../redux/slices/clothesSlice";
+import {RootState} from "../../redux/store";
 
-interface ClothingDetailsProps {
-    currentTemp: number;
-    currentClothing: string[];
-}
 
 interface dataType {
     name: string,
@@ -14,13 +13,17 @@ interface dataType {
     details: string,
     color: string,
     temp: number,
+    type: string,
     img: string
 }
 
-const ClothingDetails: React.FC<ClothingDetailsProps> = ({currentTemp, currentClothing}) => {
+const ClothingDetails = () => {
     const {id} = useParams<{ id: string }>();
+    const currentTemp = useSelector((state: RootState) => state.temperature.value)
     const clothingId = id ? parseInt(id) : 0;
     const clothingSetName = `${clothingId + 1}번 세트`;
+    const dispatch = useDispatch();
+
 
     const [selectedClothingData, setSelectedClothingData] = useState<dataType[]>([]);
     const setData = () => {
@@ -39,18 +42,18 @@ const ClothingDetails: React.FC<ClothingDetailsProps> = ({currentTemp, currentCl
         } else {
             setSelectedClothingData(clothingData.clothes.filter(data => data.temp === 0 && ["red", "orange", "yellow", "green", "blue", "navy", "purple"].includes(data.color)))
         }
+        dispatch(setClothes(selectedClothingData));
     };
 
     useEffect(() => {
         setData();
+        console.log("data", selectedClothingData);
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [currentTemp, id]);
 
     return (
         <div>
             <h2>{clothingSetName}</h2>
-            <img src={currentClothing[id ? parseInt(id) : 0]} alt={`img ${id}`}
-                 style={{width: "200px", height: "200px"}}/>
             {selectedClothingData && selectedClothingData
                 .filter(data => data.color === ["red", "orange", "yellow", "green", "blue", "navy", "purple"][clothingId])
                 .map((item: any, index: number) => (

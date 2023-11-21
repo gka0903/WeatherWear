@@ -2,7 +2,7 @@ import React, {useEffect, useState} from "react";
 import {Link} from 'react-router-dom';
 import set_img from "./set_img.json";
 import {useSelector} from "react-redux";
-import {RootState} from "../redux/store";
+import {RootState} from "../../redux/store";
 
 
 const RecommendClothing = () => {
@@ -25,7 +25,7 @@ const RecommendClothing = () => {
         } else if (temp >= 5) {
             setCurrentClothing(set_img[5]);
         } else setCurrentClothing(set_img[0]);
-
+        console.log(temp);
     }
 
     useEffect(() => {
