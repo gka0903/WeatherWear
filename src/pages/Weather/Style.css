@@ -1,11 +1,12 @@
-.weather-icons-container {
+
+  .weather-icons-container {
   display: flex;
   flex-direction: column;
   position: fixed;
   top: 0;
   right: 0;
   padding: 20px;
-  background: black; /* 배경을 블랙으로 변경 */
+  background: black; 
   max-height: 100vh; 
   overflow-y: hidden; 
 }
@@ -15,7 +16,8 @@
   flex-direction: column;
   align-items: center;
   margin-bottom: 10px;
-  padding: 5px;
+  padding: 10px 0;
+  
 }
 
 .weather-icon-item img {
@@ -26,7 +28,7 @@
 
 .weather-icon-item p {
   margin: 0;
-  color: white; /* 텍스트 색상을 흰색으로 변경 */
+  color: white;
   font-weight: bold;
   font-size: 0.6em;
 }
