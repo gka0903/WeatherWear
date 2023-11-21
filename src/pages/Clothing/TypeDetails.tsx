@@ -1,48 +1,33 @@
 import React, {useEffect, useState} from "react";
-import {useNavigate, useParams, useSearchParams} from "react-router-dom";
+import {useParams} from "react-router-dom";
+import {useSelector} from "react-redux";
 import clothingData from "./clothingData.json"
+import SetCurrentClothing from "./setClothingData";
+import {RootState} from "../../redux/store";
 
-interface TypeDetailsProps {
-    currentTemp: number;
+interface ClothingItem {
+    name: string;
+    price: string;
+    material: string;
+    details: string;
+    color: string;
+    temp: number;
+    img: string;
+    type: string;
 }
 
-interface dataType {
-    name: string,
-    price: string,
-    material: string,
-    details: string,
-    color: string,
-    temp: number,
-    type: string,    
-    img: string
-}
-
-const TypeDetails: React.FC<TypeDetailsProps> = ({currentTemp}) => {
+const TypeDetails = () => {
     const {id} = useParams<{ id: string }>();
-    const [selectedClothingData, setSelectedClothingData] = useState<dataType[]>([]);
-    
-    const setData = () => {
-        if (currentTemp >= 28) {
-            setSelectedClothingData(clothingData.clothes.filter(data => data.temp === 28))
-        } else if (currentTemp >= 24 && currentTemp <= 27) {
+    const selectedClothingData = useSelector((state: RootState) => state.clothes.value as ClothingItem[]);
+    const clothingId = id ? parseInt(id) : 0;
+    const clothingSetName = `${clothingId + 1}번 세트`;
+    SetCurrentClothing();
 
-        } else if (currentTemp >= 20 && currentTemp <= 23) {
 
-        } else if (currentTemp >= 17 && currentTemp <= 19) {
-
-        } else if (currentTemp >= 11 && currentTemp <= 16) {
-
-        } else if (currentTemp >= 6 && currentTemp <= 10) {
-
-        } else {
-            setSelectedClothingData(clothingData.clothes.filter(data => data.temp === 0))
-        }
-    };
-
-    useEffect(() => {
-        setData();
-        // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, [currentTemp, id]);
+    // useEffect(() => {
+    //     setData();
+    //     // eslint-disable-next-line react-hooks/exhaustive-deps
+    // }, [currentTemp, id]);
 
     return (
         <div>

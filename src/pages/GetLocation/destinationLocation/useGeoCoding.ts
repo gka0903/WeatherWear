@@ -1,10 +1,8 @@
-<<<<<<< HEAD
+
 import key from "../../../keys/geoCodingKey";
 
 
-=======
-import key from '../../../keys/geoCoding';
->>>>>>> eb96d02cb9a20895b9b0e27401d8d7ba739116ff
+
 
 const useGeoCoding = async (location: string) => {
   const apiKey = key;

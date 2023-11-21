@@ -4,23 +4,6 @@ import {useSelector} from "react-redux";
 import {RootState} from "../../redux/store";
 import SetCurrentClothing from "./setClothingData";
 
-<<<<<<< HEAD
-interface ClothingDetailsProps {
-    currentTemp: number;
-}
-
-interface dataType {
-    name: string,
-    price: string,
-    material: string,
-    details: string,
-    color: string,
-    temp: number,
-    img: string
-}
-
-const ClothingDetails: React.FC<ClothingDetailsProps> = ({currentTemp}) => {
-=======
 interface ClothingItem {
     name: string;
     price: string;
@@ -32,7 +15,6 @@ interface ClothingItem {
 }
 
 const ClothingDetails = () => {
->>>>>>> eb96d02cb9a20895b9b0e27401d8d7ba739116ff
     const {id} = useParams<{ id: string }>();
     const selectedClothingData = useSelector((state: RootState) => state.clothes.value as ClothingItem[]);
     const clothingId = id ? parseInt(id) : 0;
@@ -42,10 +24,7 @@ const ClothingDetails = () => {
 
     return (
         <div>
-<<<<<<< HEAD
-=======
             <h2>{clothingSetName}</h2>
->>>>>>> eb96d02cb9a20895b9b0e27401d8d7ba739116ff
             {selectedClothingData && selectedClothingData
                 .filter(data => data.color === ["Red", "orange", "yellow", "green", "blue", "navy", "purple"][clothingId])
                 .map((item: any, index: number) => (
