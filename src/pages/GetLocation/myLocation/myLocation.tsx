@@ -3,6 +3,7 @@ import myLocation from "./icMylocation.svg";
 import useGeolocation from "./useGeolocation";
 import {useDispatch} from "react-redux";
 import {setMyLocation} from "../../../redux/slices/locationSlice";
+import {useNavigate} from "react-router-dom";
 
 const Container = styled.div`
   width: 100%;
@@ -22,9 +23,11 @@ const Span = styled.span`
 const MyLocation = () => {
     const location = useGeolocation().coordinates;
     const dispatch = useDispatch();
+    const navigate = useNavigate();
 
     const loadLocation = () => {
         dispatch(setMyLocation(location));
+        navigate('/details');
     };
 
     return (

@@ -14,7 +14,7 @@ const NavContainer = styled.nav`
   align-items: flex-start;
   justify-content: center;
   left: 2%;
-  bottom:-7%;
+  bottom: -7%;
   position: fixed;
 `;
 
@@ -36,7 +36,6 @@ const Navigation = () => {
             <NavItem>
                 <Link to="/">Location</Link>
             </NavItem>
-
 
             {/* 메뉴 링크들 */}
             <NavItem>

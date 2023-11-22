@@ -3,7 +3,7 @@ import {useParams} from "react-router-dom";
 import {useSelector} from "react-redux";
 import {RootState} from "../../redux/store";
 import SetCurrentClothing from "./setClothingData";
-import { Container, Item } from "./style";
+import {Container} from "./style";
 
 interface ClothingItem {
     name: string;
@@ -19,7 +19,6 @@ const ClothingDetails = () => {
     const {id} = useParams<{ id: string }>();
     const selectedClothingData = useSelector((state: RootState) => state.clothes.value as ClothingItem[]);
     const clothingId = id ? parseInt(id) : 0;
-    const clothingSetName = `${clothingId + 1}번 세트`;
     SetCurrentClothing();
 
 

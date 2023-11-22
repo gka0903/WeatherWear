@@ -1,4 +1,3 @@
-
 import {useParams} from "react-router-dom";
 import {useSelector} from "react-redux";
 import SetCurrentClothing from "./setClothingData";
@@ -19,15 +18,8 @@ interface ClothingItem {
 const TypeDetails = () => {
     const {id} = useParams<{ id: string }>();
     const selectedClothingData = useSelector((state: RootState) => state.clothes.value as ClothingItem[]);
-
-    const clothingId = id ? parseInt(id) : 0;
-
     SetCurrentClothing();
 
-
-    useEffect(() => {
-        console.log(selectedClothingData);
-    }, []);
     return (
         <div>
             {selectedClothingData && selectedClothingData

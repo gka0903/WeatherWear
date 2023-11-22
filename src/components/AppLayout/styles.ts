@@ -21,7 +21,9 @@ export const Main = styled.div`
 export const Icon = styled.img`
   width: 200px;
   height: 150px;
-  display: flex;
-  top: 15px;   // 상단으로부터의 거리  // 왼쪽으로부터의 거리
+  display: flex; // 상단으로부터의 거리  // 왼쪽으로부터의 거리
+  top: 15px;
   object-fit: contain;
+  margin-left: 30px;
+  position: fixed;
 `;

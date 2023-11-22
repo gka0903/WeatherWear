@@ -8,5 +8,7 @@ export const Section = styled.section`
   justify-content: center;
   align-items: center;
   position: relative;
+  padding: 100px;
+  margin-top: 250px;
 `;
 
