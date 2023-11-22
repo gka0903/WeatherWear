@@ -1,5 +1,5 @@
 
-import {Section,Icon} from './styles';
+import {Section} from './styles';
 import AppLayout from "../../components/AppLayout";
 import Location from "../GetLocation/destinationLocation/Location";
 
@@ -38,7 +38,7 @@ function Home() {
             </>
         }></Route>
     */}
-                <Route path="/" element={<Section><Location/> <Icon src={require("./img.png")} alt="Icon description" /></Section>}></Route>
+                <Route path="/" element={<Section><Location/></Section>}></Route>
                 <Route path="/weather" element={
         <aside>
             <WeatherIcons latitude={location.lat} longitude={location.lng}/>
