@@ -10,6 +10,7 @@ export const Main = styled.div`
   flex: 1;
   width: 100%;
 
+  z-index: 0;
   margin-left: 5%;
 
   display: flex;

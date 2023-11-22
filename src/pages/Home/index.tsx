@@ -1,9 +1,5 @@
-
 import {Section} from './styles';
 import Location from "../GetLocation/destinationLocation/Location";
-
-
-import {useSelector} from "react-redux";
 
 
 import React from "react";
@@ -16,7 +12,6 @@ import ClothingDetails from "../Clothing/ClothingDetails";
 import TypeDetails from "../Clothing/TypeDetails";
 
 
-import Temperature from "../SetTemperature/Temperature";
 import AppLayout from "../../components/AppLayout";
 
 
@@ -25,7 +20,6 @@ function Home() {
         <AppLayout>
             <Routes>
                 <Route path="/" element={<Section><Location/></Section>}></Route>
-                <Route path="/temperature" element={<Section><Temperature/></Section>}></Route>
                 <Route path="/typeDetails/:id" element={<Section><TypeDetails/></Section>}/>
                 <Route path="/details" element={<Section><RecommendClothing/></Section>}/>
                 <Route path="/details/:id"
