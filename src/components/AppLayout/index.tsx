@@ -2,6 +2,7 @@ import React from 'react';
 import {Container, Main} from './styles';
 import Navigation from "../Nav/nav";
 import GlobalStyle from "../../GlobalStyle";
+
 import {RootState} from "../../redux/store";
 import {useSelector} from "react-redux";
 import WeatherIcons from '../../pages/Weather/WeatherIcons';
@@ -10,10 +11,11 @@ import { useRoutes } from 'react-router-dom';
 import {Icon} from "./styles";
 
 
+
 function AppLayout({children}: { children: React.ReactNode }) {
     const location = useSelector((state: RootState) => state.location.value);
     const isHomeRoute = useRoutes([
-        { path: "/", element: <Location/> },
+        {path: "/", element: <Location/>},
     ]);
 
     return (
@@ -24,6 +26,7 @@ function AppLayout({children}: { children: React.ReactNode }) {
                 <Navigation/>
                 {!isHomeRoute && <Navigation />}
                 {isHomeRoute ? null :<WeatherIcons latitude={location.lat} longitude={location.lng}/>}
+
                 <Main>{children}</Main>
             </Container>
         </>
