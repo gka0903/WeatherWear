@@ -3,6 +3,8 @@ import {Link} from 'react-router-dom';
 import set_img from "./set_img.json";
 import {useSelector} from "react-redux";
 import {RootState} from "../../redux/store";
+import { Container, Item } from "./style";
+
 
 
 const RecommendClothing = () => {
@@ -33,17 +35,18 @@ const RecommendClothing = () => {
     }, [currentTemp]);
 
     return (
-        <>
+        <Container>
             {currentClothing.map((img, index) => (
-                <li key={index}>
+                <Item flexBasis={index < 3 ? '0 1 33%' : '1 0 25%'} key={index}>
                     {`${index + 1} 세트`}
                     <Link to={`/details/${index}`}>
                         <img src={require(`${img}`)} alt={`img ${index}`} style={{width: "150px", height: "150px"}}/>
                     </Link>
-                </li>
+                </Item>
             ))}
-        </>
+        </Container>
     );
 }
 
 export default RecommendClothing;
+
