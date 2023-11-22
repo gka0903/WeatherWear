@@ -1,3 +1,4 @@
+
 import {useParams} from "react-router-dom";
 import {useSelector} from "react-redux";
 import SetCurrentClothing from "./setClothingData";
@@ -18,20 +19,20 @@ interface ClothingItem {
 const TypeDetails = () => {
     const {id} = useParams<{ id: string }>();
     const selectedClothingData = useSelector((state: RootState) => state.clothes.value as ClothingItem[]);
+
     const clothingId = id ? parseInt(id) : 0;
+
     SetCurrentClothing();
 
 
-    // useEffect(() => {
-    //     setData();
-    //     // eslint-disable-next-line react-hooks/exhaustive-deps
-    // }, [currentTemp, id]);
-
+    useEffect(() => {
+        console.log(selectedClothingData);
+    }, []);
     return (
         <div>
             {selectedClothingData && selectedClothingData
-                .filter(data => data.type === id)   
-                .map((item: any, index: number) => ( 
+                .filter(data => data.type === id)
+                .map((item: any, index: number) => (
                     <div key={index} style={{display: 'flex'}}>
                         <div>
                             <img

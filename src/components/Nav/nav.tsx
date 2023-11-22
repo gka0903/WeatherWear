@@ -14,12 +14,14 @@ const NavContainer = styled.nav`
   align-items: flex-start;
   justify-content: center;
   left: 2%;
+  bottom:-7%;
   position: fixed;
 `;
 
 // 네비게이션 바 아이템 스타일
 const NavItem = styled.div`
   margin: 10px 0;
+  font-size: 1.5em;
 
   a {
     text-decoration: none;
@@ -38,16 +40,22 @@ const Navigation = () => {
 
             {/* 메뉴 링크들 */}
             <NavItem>
-                <Link to="/tops">Tops</Link>
+                <Link to="/typeDetails/top">Tops</Link>
             </NavItem>
             <NavItem>
-                <Link to="/pants">Pants</Link>
+                <Link to="/typeDetails/bottom">Pants</Link>
             </NavItem>
             <NavItem>
-                <Link to="/outer">Outer</Link>
+                <Link to="/typeDetails/outer">Outers</Link>
             </NavItem>
             <NavItem>
-                <Link to="/setUp">Set Up</Link>
+                <Link to="/typeDetails/shoes">Shoes</Link>
+            </NavItem>
+            <NavItem>
+                <Link to="/typeDetails/accesary">Accessory</Link>
+            </NavItem>
+            <NavItem>
+                <Link to="/details">Set Up</Link>
             </NavItem>
             <NavItem>
                 <Link to="/fortune">Fortune</Link>
