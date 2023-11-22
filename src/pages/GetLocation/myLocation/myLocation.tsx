@@ -6,7 +6,7 @@ import {setMyLocation} from "../../../redux/slices/locationSlice";
 
 const Container = styled.div`
   width: 100%;
-  height: 5%;
+  height: 30%;
   display: flex;
   justify-content: center;
   align-items: center;

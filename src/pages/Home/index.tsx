@@ -1,5 +1,9 @@
+
 import {Section} from './styles';
 import Location from "../GetLocation/destinationLocation/Location";
+
+
+import {useSelector} from "react-redux";
 
 
 import React from "react";
