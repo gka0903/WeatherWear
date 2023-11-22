@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import styled from "styled-components";
 import DefaultButton from "../../components/Button/button";
 import {useSelector} from "react-redux";
-import {RootState} from "../redux/store";
+import {RootState} from "../../redux/store";
 
 const fortunes = [
     "내일은 더 나은 하루가 될 것입니다.",
@@ -19,11 +19,11 @@ const getRandomFortune = () => {
 
 const FortuneCookie = () => {
     const [fortune, setFortune] = useState('');
-    const test = useSelector((state: RootState) => state.location.value);
+    const currentClothing = useSelector((state: RootState) => state.clothes.value);
     const crackCookie = () => {
         const randomFortune = getRandomFortune();
-        console.log(test);
         setFortune(randomFortune);
+        console.log(currentClothing);
     };
 
     return (
