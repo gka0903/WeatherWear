@@ -7,4 +7,6 @@ export const Section = styled.section`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: relative;
 `;
+

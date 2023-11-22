@@ -14,12 +14,14 @@ const NavContainer = styled.nav`
   align-items: flex-start;
   justify-content: center;
   left: 2%;
+  bottom:-7%;
   position: fixed;
 `;
 
 // 네비게이션 바 아이템 스타일
 const NavItem = styled.div`
   margin: 10px 0;
+  font-size: 1.5em;
 
   a {
     text-decoration: none;

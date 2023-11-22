@@ -1,3 +1,4 @@
+
 import React, {useEffect, useState} from 'react';
 import {getWeatherForecast} from './WeatherService';
 import {useDispatch} from 'react-redux';
@@ -58,7 +59,6 @@ const WeatherIcons: React.FC<WeatherIconsProps> = ({latitude, longitude}) => {
         const formattedMinutes = minutes < 10 ? `0${minutes}` : minutes;
         return `${ampm} ${formattedHours}:${formattedMinutes}`;
     };
-
     return (
         <div className="weather-icons-container">
             {forecasts.map((forecast, index) => (
