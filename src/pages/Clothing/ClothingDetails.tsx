@@ -3,6 +3,7 @@ import {useParams} from "react-router-dom";
 import {useSelector} from "react-redux";
 import {RootState} from "../../redux/store";
 import SetCurrentClothing from "./setClothingData";
+import { Container, Item } from "./style";
 
 interface ClothingItem {
     name: string;
@@ -23,8 +24,7 @@ const ClothingDetails = () => {
 
 
     return (
-        <div>
-            <h2>{clothingSetName}</h2>
+        <Container>
             {selectedClothingData && selectedClothingData
                 .filter(data => data.color === ["Red", "orange", "yellow", "green", "blue", "navy", "purple"][clothingId])
                 .map((item: any, index: number) => (
@@ -42,7 +42,7 @@ const ClothingDetails = () => {
                         </div>
                     </div>
                 ))}
-        </div>
+        </Container>
     );
 
 };

@@ -1,9 +1,8 @@
-import React, {useEffect, useState} from "react";
 import {useParams} from "react-router-dom";
 import {useSelector} from "react-redux";
-import clothingData from "./clothingData.json"
 import SetCurrentClothing from "./setClothingData";
 import {RootState} from "../../redux/store";
+
 
 interface ClothingItem {
     name: string;
@@ -20,7 +19,6 @@ const TypeDetails = () => {
     const {id} = useParams<{ id: string }>();
     const selectedClothingData = useSelector((state: RootState) => state.clothes.value as ClothingItem[]);
     const clothingId = id ? parseInt(id) : 0;
-    const clothingSetName = `${clothingId + 1}번 세트`;
     SetCurrentClothing();
 
 
