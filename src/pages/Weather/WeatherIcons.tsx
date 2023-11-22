@@ -64,7 +64,7 @@ const WeatherIcons: React.FC<WeatherIconsProps> = ({ latitude, longitude }) => {
         <div key={index} className="weather-icon-item">
           <p>{formatTime(forecast.time)}</p>
           <img src={`http://openweathermap.org/img/wn/${forecast.icon}.png`} alt="weather icon" />
-          <p>{forecast.temp.toFixed(1)}°C</p>
+          <p>{forecast.temp.toFixed(1)}°</p>
         </div>
       ))}
     </div>

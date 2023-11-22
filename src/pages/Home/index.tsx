@@ -1,7 +1,7 @@
-import {Section} from './styles';
+
+import {Section,Icon} from './styles';
 import AppLayout from "../../components/AppLayout";
 import Location from "../GetLocation/destinationLocation/Location";
-
 
 import {useSelector} from "react-redux";
 
@@ -38,7 +38,7 @@ function Home() {
             </>
         }></Route>
     */}
-                <Route path="/" element={<Section><Location/></Section>}></Route>
+                <Route path="/" element={<Section><Location/> <Icon src={require("./img.png")} alt="Icon description" /></Section>}></Route>
                 <Route path="/weather" element={
         <aside>
             <WeatherIcons latitude={location.lat} longitude={location.lng}/>
