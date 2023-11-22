@@ -40,16 +40,22 @@ const Navigation = () => {
 
             {/* 메뉴 링크들 */}
             <NavItem>
-                <Link to="/tops">Tops</Link>
+                <Link to="/typeDetails/top">Tops</Link>
             </NavItem>
             <NavItem>
-                <Link to="/pants">Pants</Link>
+                <Link to="/typeDetails/bottom">Pants</Link>
             </NavItem>
             <NavItem>
-                <Link to="/outer">Outer</Link>
+                <Link to="/typeDetails/outer">Outers</Link>
             </NavItem>
             <NavItem>
-                <Link to="/setUp">Set Up</Link>
+                <Link to="/typeDetails/shoes">Shoes</Link>
+            </NavItem>
+            <NavItem>
+                <Link to="/typeDetails/accesary">Accessory</Link>
+            </NavItem>
+            <NavItem>
+                <Link to="/details">Set Up</Link>
             </NavItem>
             <NavItem>
                 <Link to="/fortune">Fortune</Link>

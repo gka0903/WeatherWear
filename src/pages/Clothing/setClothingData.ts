@@ -21,13 +21,12 @@ const SetCurrentClothing = () => {
             dispatch(setClothes(clothingData.clothes.filter(data => data.temp === 11)));
         } else if (currentTemp >= 6 && currentTemp <= 10) {
             dispatch(setClothes(clothingData.clothes.filter(data => data.temp === 6)));
-        } else {
+        } else if (currentTemp >= 0 && currentTemp <= 5) {
             dispatch(setClothes(clothingData.clothes.filter(data => data.temp === 0)));
+        } else {
+            dispatch(setClothes(clothingData.clothes.filter(data => data.temp === -10)));
         }
     }, [currentTemp, dispatch]);
-
-    // You might return something if needed, or keep it as a pure utility function
-    return null;
 };
 
 export default SetCurrentClothing;
