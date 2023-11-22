@@ -8,18 +8,20 @@ import WeatherIcons from '../../pages/Weather/WeatherIcons';
 import Location from "../../pages/GetLocation/destinationLocation/Location";
 import {useRoutes} from 'react-router-dom';
 import {RootState} from "../../redux/store";
+import Temperature from "../../pages/SetTemperature/Temperature";
 
 function AppLayout({children}: { children: React.ReactNode }) {
     const location = useSelector((state: RootState) => state.location.value);
     const isHomeRoute = useRoutes([
         {path: "/", element: <Location/>},
+        {path: "/temperature", element: <Temperature/>},
     ]);
 
     return (
         <>
             <GlobalStyle/>
             <Container>
-                <Navigation/>
+                {isHomeRoute ? null : <Navigation/>}
                 {isHomeRoute ? null : <WeatherIcons latitude={location.lat} longitude={location.lng}/>}
                 <Main>{children}</Main>
             </Container>
