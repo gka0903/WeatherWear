@@ -5,11 +5,13 @@ import {useSelector} from "react-redux";
 import {RootState} from "../../redux/store";
 
 const fortunes = [
-    "내일은 더 나은 하루가 될 것입니다.",
-    "곧 좋은 소식이 있을 것입니다.",
-    "열심히 일하는 당신에게 상을 주어야 할 때입니다.",
-    "어제의 꿈은 오늘의 희망이 됩니다.",
-    "행운을 빕니다!",
+    "오늘의 행운의 색: Red",
+    "오늘의 행운의 색: Orange",
+    "오늘의 행운의 색: Yellow",
+    "오늘의 행운의 색: Green",
+    "오늘의 행운의 색: Blue",
+    "오늘의 행운의 색: Navy",
+    "오늘의 행운의 색: Purple",
 ];
 
 const getRandomFortune = () => {

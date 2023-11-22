@@ -17,33 +17,43 @@ interface ClothingItem {
 
 const ClothingDetails = () => {
     const {id} = useParams<{ id: string }>();
-    const selectedClothingData = useSelector((state: RootState) => state.clothes.value as ClothingItem[]);
-    const clothingId = id ? parseInt(id) : 0;
+    const selectedClothingData = useSelector(
+        (state: RootState) => state.clothes.value as ClothingItem[]
+    );
+    const clothingId = id ? parseInt(id) : -1;
     SetCurrentClothing();
 
+    if (!selectedClothingData) {
+        return null; // Handle the case where data is not available
+    }
+
+    const colorArray = ["red", "orange", "yellow", "green", "blue", "navy", "purple"];
+    const selectedColor = colorArray[clothingId];
+
+    const filteredData = selectedClothingData.filter(
+        (data) => data.color === selectedColor
+    );
 
     return (
         <Container>
-            {selectedClothingData && selectedClothingData
-                .filter(data => data.color === ["Red", "orange", "yellow", "green", "blue", "navy", "purple"][clothingId])
-                .map((item: any, index: number) => (
-                    <div key={index} style={{display: 'flex'}}>
-                        <div>
-                            <img
-                                src={require(
-                                    `${selectedClothingData
-                                        .filter(data => data.color === ["Red", "orange", "yellow", "green", "blue", "navy", "purple"][clothingId])[index].img}`
-                                )}
-                                alt={`img ${index}`} style={{width: "150px", height: "150px"}}/>
-                            <p>{item.name} {item.price}</p>
-                            <p>세부사항: {item.details}</p>
-                            <p>소재: {item.material}</p>
-                        </div>
+            {filteredData.map((item: ClothingItem, index: number) => (
+                <div key={index} style={{display: "flex"}}>
+                    <div>
+                        <img
+                            src={require(`${item.img}`)}
+                            alt={`img ${index}`}
+                            style={{width: "150px", height: "150px"}}
+                        />
+                        <p>
+                            {item.name} {item.price}
+                        </p>
+                        <p>세부사항: {item.details}</p>
+                        <p>소재: {item.material}</p>
                     </div>
-                ))}
+                </div>
+            ))}
         </Container>
     );
-
 };
 
 export default ClothingDetails;

@@ -6,6 +6,7 @@ import {useEffect} from "react";
 
 const SetCurrentClothing = () => {
     const currentTemp = useSelector((state: RootState) => state.temperature.value);
+    const data = useSelector((state: RootState) => state.clothes.value);
     const dispatch = useDispatch();
 
     useEffect(() => {
@@ -27,6 +28,10 @@ const SetCurrentClothing = () => {
             dispatch(setClothes(clothingData.clothes.filter(data => data.temp === -10)));
         }
     }, [currentTemp, dispatch]);
+
+    useEffect(() => {
+        console.log(data)
+    }, [data]);
 };
 
 export default SetCurrentClothing;
