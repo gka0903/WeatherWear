@@ -9,8 +9,14 @@ import FortuneCookie from "../FortuneCookie/FortuneCookie";
 import NotFound from "../notFound/notFound";
 import RecommendClothing from "../Clothing/RecommendClothing";
 import ClothingDetails from "../Clothing/ClothingDetails";
+
+import TypeDetails from "../Clothing/TypeDetails";
+
+
+
 import Temperature from "../SetTemperature/Temperature";
 import AppLayout from "../../components/AppLayout";
+
 
 
 function Home() {
@@ -35,7 +41,11 @@ function Home() {
                 <Route path="/temperature" element={<Section><Temperature/></Section>}></Route>
                 <Route path="/details" element={<Section><RecommendClothing/></Section>}/>
                 <Route path="/details/:id"
-                       element={<Section><ClothingDetails/></Section>}/>
+                                            element={<Section><ClothingDetails/></Section>}/>
+                      
+                <Route path="/typedetails/:id" element={<Section><TypeDetails/></Section>}/>
+
+
                 <Route path="/fortune" element={<Section><FortuneCookie/></Section>}></Route>
                 <Route path="*" element={<NotFound/>}></Route>
             </Routes>
