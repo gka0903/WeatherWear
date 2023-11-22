@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 export const FormContainer = styled.form`
-  width: 95%;
-  height: 100%;
+  width: 80%;
+  height: 80%;
   margin-top: 2%;
   display: flex;
   flex-direction: column;
@@ -14,8 +14,8 @@ export const FormContainer = styled.form`
 `;
 
 export const Content = styled.div`
-  height: 70%;
-  width: 100%;
+  height: 80%;
+  width: 70%;
   display: flex;
   flex-direction: column;
 `;

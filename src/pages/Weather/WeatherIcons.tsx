@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { getWeatherForecast } from './WeatherService';
 import { useDispatch } from 'react-redux';
-import { setTemperature } from '../redux/slices/temperature';
+import { setTemperature } from '../../redux/slices/temperature';
 
 import './Style.css';
 

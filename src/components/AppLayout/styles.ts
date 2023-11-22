@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   display: flex;
-  height: 90vh; /* 화면 높이에 100% 맞춤 */
+  height: 78vh; /* 화면 높이에 100% 맞춤 */
   overflow: visible;
 `;
 
@@ -15,14 +15,13 @@ export const Main = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 90%;
+  height: 100%;
 `;
 
 export const Icon = styled.img`
   width: 200px;
   height: 150px;
-  position: relative;
-  top: 30px;   // 상단으로부터의 거리
-  left: 30px;  // 왼쪽으로부터의 거리
+  display: flex;
+  top: 15px;   // 상단으로부터의 거리  // 왼쪽으로부터의 거리
   object-fit: contain;
 `;
