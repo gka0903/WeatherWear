@@ -33,9 +33,6 @@ const Navigation = () => {
     return (
         <NavContainer>
             {/* 로고 또는 홈 링크 */}
-            <NavItem>
-                <Link to="/">Location</Link>
-            </NavItem>
 
             {/* 메뉴 링크들 */}
             <NavItem>

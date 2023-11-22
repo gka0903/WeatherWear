@@ -7,24 +7,31 @@ import {RootState} from "../../redux/store";
 import {useSelector} from "react-redux";
 import WeatherIcons from '../../pages/Weather/WeatherIcons';
 import Location from "../../pages/GetLocation/destinationLocation/Location";
-import {useRoutes} from 'react-router-dom';
-import Temperature from "../../pages/SetTemperature/Temperature";
 
+import {Link, useRoutes} from 'react-router-dom';
+import styled from "styled-components";
+
+const LayoutBox = styled.div`
+  position: relative;
+  z-index: 1000;
+
+`;
 
 function AppLayout({children}: { children: React.ReactNode }) {
     const location = useSelector((state: RootState) => state.location.value);
     const isHomeRoute = useRoutes([
         {path: "/", element: <Location/>},
-        {path: "/temperature", element: <Temperature/>},
     ]);
 
     return (
         <>
             <GlobalStyle/>
-            <Icon src={require("./img.png")} alt="Icon description"/>
+            <Link to="/"><Icon src={require("./img.png")} alt="Icon description"/></Link>
             <Container>
-                {isHomeRoute ? null : <Navigation/>}
-                {isHomeRoute ? null : <WeatherIcons latitude={location.lat} longitude={location.lng}/>}
+                <LayoutBox>
+                    {isHomeRoute ? null : <Navigation/>}
+                    {isHomeRoute ? null : <WeatherIcons latitude={location.lat} longitude={location.lng}/>}
+                </LayoutBox>
                 <Main>{children}</Main>
             </Container>
         </>
@@ -32,3 +39,4 @@ function AppLayout({children}: { children: React.ReactNode }) {
 }
 
 export default AppLayout;
+
