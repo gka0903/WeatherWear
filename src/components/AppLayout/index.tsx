@@ -26,7 +26,7 @@ function AppLayout({children}: { children: React.ReactNode }) {
     return (
         <>
             <GlobalStyle/>
-            <Link to="/"><Icon src={require("./img.png")} alt="Icon description"/></Link>
+            <LayoutBox><Link to="/"><Icon src={require("./img.png")} alt="Icon description"/></Link></LayoutBox>
             <Container>
                 <LayoutBox>
                     {isHomeRoute ? null : <Navigation/>}
