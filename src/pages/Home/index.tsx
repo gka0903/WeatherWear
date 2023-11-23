@@ -13,6 +13,7 @@ import TypeDetails from "../Clothing/TypeDetails";
 
 
 import AppLayout from "../../components/AppLayout";
+import Temperature from "../SetTemperature/Temperature";
 
 
 function Home() {
@@ -20,6 +21,7 @@ function Home() {
         <AppLayout>
             <Routes>
                 <Route path="/" element={<Section><Location/></Section>}></Route>
+                <Route path="/temperature" element={<Section><Temperature/></Section>}></Route>
                 <Route path="/typeDetails/:id" element={<Section><TypeDetails/></Section>}/>
                 <Route path="/details" element={<Section><RecommendClothing/></Section>}/>
                 <Route path="/details/:id"

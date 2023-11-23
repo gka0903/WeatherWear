@@ -1,6 +1,5 @@
 import {createSlice} from "@reduxjs/toolkit";
 
-
 interface LocationState {
     value: {
         lat: number;

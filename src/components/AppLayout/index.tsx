@@ -5,11 +5,12 @@ import GlobalStyle from "../../GlobalStyle";
 
 import {RootState} from "../../redux/store";
 import {useSelector} from "react-redux";
-import WeatherIcons from '../../pages/Weather/WeatherIcons';
 import Location from "../../pages/GetLocation/destinationLocation/Location";
 
 import {Link, useRoutes} from 'react-router-dom';
 import styled from "styled-components";
+import WeatherIcons from "../../pages/Weather/WeatherIcons";
+import Temperature from "../../pages/SetTemperature/Temperature";
 
 const LayoutBox = styled.div`
   position: relative;
@@ -19,8 +20,10 @@ const LayoutBox = styled.div`
 
 function AppLayout({children}: { children: React.ReactNode }) {
     const location = useSelector((state: RootState) => state.location.value);
+    const isTemp = useSelector((state: RootState) => state.isTemp.value);
     const isHomeRoute = useRoutes([
         {path: "/", element: <Location/>},
+        {path: "/temperature", element: <Temperature/>},
     ]);
 
     return (
@@ -30,7 +33,7 @@ function AppLayout({children}: { children: React.ReactNode }) {
             <Container>
                 <LayoutBox>
                     {isHomeRoute ? null : <Navigation/>}
-                    {isHomeRoute ? null : <WeatherIcons latitude={location.lat} longitude={location.lng}/>}
+                    {isHomeRoute || isTemp ? null : <WeatherIcons latitude={location.lat} longitude={location.lng}/>}
                 </LayoutBox>
                 <Main>{children}</Main>
             </Container>

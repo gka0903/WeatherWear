@@ -258,7 +258,7 @@
       "color": "red",
       "temp": 24,
       "type": "top",
-      "img": "./images/24img/red/Red_Top.jpg"
+      "img": "./images/24img/Red/Red_Top.jpg"
     },
     {
       "name": "피치 캔버스 팬츠(토피 브라운)",
@@ -268,7 +268,7 @@
       "color": "red",
       "temp": 24,
       "type": "bottom",
-      "img": "./images/24img/red/Red_Bottom.jpg"
+      "img": "./images/24img/Red/Red_Bottom.jpg"
     },
     {
       "name": "PRINTED TOTE BAG (Black)",
@@ -278,7 +278,7 @@
       "color": "red",
       "temp": 24,
       "type": "accesary",
-      "img": "./images/24img/red/Red_Accesary.jpg"
+      "img": "./images/24img/Red/Red_Accesary.jpg"
     },
     {
       "name": "프린트 하이탑 스니커즈",
@@ -288,7 +288,7 @@
       "color": "red",
       "temp": 24,
       "type": "shoes",
-      "img": "./images/24img/red/Red_Shoes.jpg"
+      "img": "./images/24img/Red/Red_Shoes.jpg"
     },
     {
       "name": "폴로 티셔츠 (퍼플/그린)",
@@ -348,7 +348,7 @@
       "color": "yellow",
       "temp": 24,
       "type": "shoes",
-      "img": "./images/24img/Yellow/Yellow_Shoess.jpg"
+      "img": "./images/24img/Yellow/Yellow_Shoes.jpg"
     },
     {
       "name": "A.P.C. 로고 프린트 식스 패널 캡 모자",

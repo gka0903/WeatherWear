@@ -1,12 +1,14 @@
 import React, {ChangeEvent, useEffect, useState} from "react";
 import useGeoCoding from "./useGeoCoding";
-import {useNavigate} from 'react-router-dom';
+import {Link, useNavigate} from 'react-router-dom';
 
 import MyLocation from "../myLocation/myLocation";
 import {Content, FormContainer, Input, Title} from "./style";
 import {useDispatch, useSelector} from "react-redux";
 import {setMyLocation} from "../../../redux/slices/locationSlice";
 import {RootState} from "../../../redux/store";
+import DefaultButton from "../../../components/Button/button";
+import {setIsTemp} from "../../../redux/slices/isTempSlice";
 
 
 const Location = () => {
@@ -16,6 +18,7 @@ const Location = () => {
     const data = useSelector((state: RootState) => state.location.value)
     const setDispatch = (data: object) => {
         dispatch(setMyLocation(data))
+        dispatch(setIsTemp(false));
     }
     const loadLocation = (e: ChangeEvent<HTMLInputElement>) => {
         setLocation(e.target.value);
@@ -38,6 +41,7 @@ const Location = () => {
                 <Content>
                     <Input onChange={loadLocation} placeholder="Enter a location"/>
                     <MyLocation/>
+                    <DefaultButton><Link to="/temperature">Temperature</Link></DefaultButton>
                 </Content>
             </FormContainer>
         </>
